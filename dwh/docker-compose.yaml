@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: dwh
+    environment:
+      POSTGRES_DB: dwh
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mypassword
+    ports:
+      - "5434:5432"
+    volumes:
+      - ./data:/docker-entrypoint-initdb.d
