@@ -3,7 +3,7 @@ version: '3'
 services:
   postgres:
     image: postgres:latest
-    container_name: mini-order
+    container_name: sources
     environment:
       POSTGRES_DB: mini_order
       POSTGRES_USER: postgres
