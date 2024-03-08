@@ -85,8 +85,8 @@ CREATE TABLE stg.dim_customer(
     email varchar(100),
     phone varchar(100),
     address varchar(100),
-    created_at varchar(100),
-    updated_at varchar(100)
+    created_at timestamp,
+    updated_at timestamp
 );
 
 CREATE TABLE stg.dim_product(
@@ -99,8 +99,8 @@ CREATE TABLE stg.dim_product(
     category_desc text,
     subcategory_name varchar(100),
     subcategory_desc text,
-    created_at varchar(100),
-    updated_at varchar(100)
+    created_at timestamp,
+    updated_at timestamp
 );
 
 CREATE TABLE stg.dim_date(
