@@ -61,21 +61,20 @@ CREATE TABLE stg.product (
     CONSTRAINT product_pkey PRIMARY KEY (product_id)
 );
 
-ALTER TABLE orders
-ADD FOREIGN KEY (customer_id) REFERENCES customer(customer_id);
+ALTER TABLE stg.orders
+ADD FOREIGN KEY (customer_id) REFERENCES stg.customer(customer_id);
 
-ALTER TABLE order_detail
-ADD FOREIGN KEY (order_id) REFERENCES orders(order_id);
+ALTER TABLE stg.order_detail
+ADD FOREIGN KEY (order_id) REFERENCES stg.orders(order_id);
 
-ALTER TABLE order_detail
-ADD FOREIGN KEY (product_id) REFERENCES product(product_id);
+ALTER TABLE stg.order_detail
+ADD FOREIGN KEY (product_id) REFERENCES stg.product(product_id);
 
+ALTER TABLE stg.subcategory
+ADD FOREIGN KEY (category_id) REFERENCES stg.category(category_id);
 
-ALTER TABLE subcategory
-ADD FOREIGN KEY (category_id) REFERENCES category(category_id);
-
-ALTER TABLE product
-ADD FOREIGN KEY (subcategory_id) REFERENCES subcategory(subcategory_id);
+ALTER TABLE stg.product
+ADD FOREIGN KEY (subcategory_id) REFERENCES stg.subcategory(subcategory_id);
 
 CREATE TABLE stg.dim_customer(
     customer_id uuid primary key default uuid_generate_v4(),
