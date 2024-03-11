@@ -13,7 +13,6 @@ services:
       - 5434:5432
     volumes:
       - dwh_volume:/var/lib/postgresql/data
-      - ./data:/docker-entrypoint-initdb.d
 
 volumes:
   dwh_volume:
