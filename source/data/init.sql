@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 16.1
--- Dumped by pg_dump version 16.1
+-- Dumped from database version 16.2 (Debian 16.2-1.pgdg120+2)
+-- Dumped by pg_dump version 16.2 (Debian 16.2-1.pgdg120+2)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -5909,6 +5909,47 @@ IAAC58MO380	529	2022-10-10 00:00:00	Success	2022-10-10 00:00:00	2022-10-11 00:00
 --
 
 COPY public.product (product_id, name, subcategory_id, price, stock, created_at, updated_at) FROM stdin;
+B00NW4UWN6	Prestige PKGSS 1.7L 1500W Electric Kettle (Stainless Steel)	139	1345.00	218	2021-01-01 00:00:00	2021-01-01 00:00:00
+B01NCVJMKX	SHOPTOSHOP Electric Lint Remover, Best Lint Shaver for Clothes,Lint Remover for Woolen Clothes ,Lint Remover for Sweaters	142	999.00	175	2021-01-01 00:00:00	2021-01-01 00:00:00
+B00O24PUO6	Orpat OEH-1260 2000-Watt Fan Heater (Grey)	141	1650.00	259	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07GXPDLYQ	PRO365 Indo Mocktails/Coffee Foamer/Cappuccino/Lemonade/Milk Frother (6 Months Warranty)	146	499.00	122	2021-01-01 00:00:00	2021-01-01 00:00:00
+B01C8P29N0	Bajaj DX-6 1000W Dry Iron with Advance Soleplate and Anti-bacterial German Coating Technology, White	147	1400.00	153	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07ZR4S1G4	Universal Remote Control for All Sony TV for All LCD LED and Bravia TVs Remote	5	699.00	234	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09C635BMM	Cotbolt Silicone Case Cover Compatible for Samsung BN59-01312A QLED 8K 4K Smart TV Remote Shockproof Protective Remote Cover (Black)	5	999.00	161	2021-01-01 00:00:00	2021-01-01 00:00:00
+B00GG59HU2	BlueRigger High Speed HDMI Cable with Ethernet - Supports 3D, 4K 60Hz and Audio Return - Latest Version (3 Feet / 0.9 Meter)	3	599.00	194	2021-01-01 00:00:00	2021-01-01 00:00:00
+B00RGLI0ZS	Amkette 30 Pin to USB Charging & Data Sync Cable for iPhone 3G/3GS/4/4s/iPad 1/2/3, iPod Nano 5th/6th Gen and iPod Touch 3rd/4th Gen -1.5m (Black)	1	599.00	167	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09Q8HMKZX	Portronics Konnect L 20W PD Quick Charge Type-C to 8-Pin USB Mobile Charging Cable, 1.2M, Tangle Resistant, Fast Data Sync(Grey)	1	699.00	116	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0B9XN9S3W	Acer 80 cm (32 inches) N Series HD Ready TV AR32NSV53HD (Black)	6	14990.00	65	2021-01-01 00:00:00	2021-01-01 00:00:00
+B01GGKYKQM	Amazon Basics USB Type-C to USB-A 2.0 Male Fast Charging Cable for Laptop - 3 Feet (0.9 Meters), Black	1	700.00	118	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0B86CDHL1	oraimo 65W Type C to C Fast Charging Cable USB C to USB C Cable High Speed Syncing, Nylon Braided 1M length with LED Indicator Compatible For Laptop, Macbook, Samsung Galaxy S22 S20 S10 S20Fe S21 S21 Ultra A70 A51 A71 A50S M31 M51 M31S M53 5G	1	899.00	68	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0BB3CBFBM	VU 138 cm (55 inches) Premium Series 4K Ultra HD Smart IPS LED TV 55UT (Black)	4	65000.00	245	2021-01-01 00:00:00	2021-01-01 00:00:00
+B08QSDKFGQ	Zoul USB Type C Fast Charging 3A Nylon Braided Data Cable Quick Charger Cable QC 3.0 for Samsung Galaxy M31s M30 S10 S9 S20 Plus, Note 10 9 8, A20e A40 A50 A70 (1M, Grey)	1	1099.00	243	2021-01-01 00:00:00	2021-01-01 00:00:00
+B08PV1X771	Samsung 80 cm (32 inches) Wondertainment Series HD Ready LED Smart TV UA32TE40AAKBXL (Titan Gray)	4	20900.00	259	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07YTNKVJQ	MI Xiaomi USB Type C HYperCharge Cable 6A 100cm Sturdy and Durable Black Supports 120W HyperCharging	1	1299.00	160	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0117H7GZ6	GENERIC Ultra-Mini Bluetooth CSR 4.0 USB Dongle Adapter for Windows Computer ( Black:Golden)	2	399.00	212	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09XJ1LM7R	7SEVEN® Compatible for Tata Sky Remote Original Set Top HD Box and Suitable for SD Tata Play setup Box Remote Control	5	799.00	267	2021-01-01 00:00:00	2021-01-01 00:00:00
+B084N133Y7	Belkin Apple Certified Lightning To Type C Cable, Fast Charging For Iphone, Ipad, Air Pods, 3.3 Feet (1 Meters)    White	1	1999.00	101	2021-01-01 00:00:00	2021-01-01 00:00:00
+B088Z1YWBC	EGate i9 Pro-Max 1080p Native Full HD Projector 4k Support | 3600 L (330 ANSI ) | 150" (381 cm) Large Screen | VGA, AV, HDMI, SD Card, USB, Audio Out | (E03i31 / E04i32) Black	11	15990.00	133	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07VSG5SXZ	ZEBRONICS HAA2021 HDMI version 2.1 cable with 8K @ 60Hz, 4K @ 120Hz, eARC & CEC support, 3D compatible, 2 meters length, 48Gbps max and Gold-plated connectors	3	1499.00	234	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09ZPJT8B2	TCL 80 cm (32 inches) HD Ready Certified Android Smart LED TV 32S615 (Black)	4	31990.00	247	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07HZ2QCGR	POPIO Type C Dash Charging USB Data Cable for OnePlus Devices	1	599.00	59	2021-01-01 00:00:00	2021-01-01 00:00:00
+B095244Q22	MYVN LTG to USB for Fast Charging & Data Sync USB Cable Compatible for iPhone 5/5s/6/6S/7/7+/8/8+/10/11, iPad Air/Mini, iPod and iOS Devices (1 M)	1	999.00	176	2021-01-01 00:00:00	2021-01-01 00:00:00
+B08CKW1KH9	Tata Sky Universal Remote Compatible for SD/HD	5	599.00	224	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0BLV1GNLN	WZATCO Pixel | Portable LED Projector | Native 720p with Full HD 1080P Support | 2000 Lumens (200 ANSI) | 176" Large Screen | Projector for Home and Outdoor | Compatible with TV Stick, PC, PS4	11	9990.00	223	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07924P3C5	Storite High Speed Micro USB 3.0 Cable A to Micro B for External & Desktop Hard Drives 45cm	1	799.00	109	2021-01-01 00:00:00	2021-01-01 00:00:00
+B08N1WL9XW	FLiX (Beetel) 3in1 (Type C|Micro|Iphone Lightening) Textured Pattern 3A Fast Charging Cable with QC & PD Support for Type C,Micro USB & Lightning Iphone Cable,Made in India,1.5 Meter Long Cable(T101)	1	599.00	277	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07VVXJ2P5	SVM Products Unbreakable Set Top Box Stand with Dual Remote Holder (Black)	7	399.00	161	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0BC8BQ432	VU 164 cm (65 inches) The GloLED Series 4K Smart LED Google TV 65GloLED (Grey)	4	85000.00	136	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0BBW521YC	LAPSTER 12pcs Spiral Cable Protectors for Charger, Wires, Data Charger Cable Protector for Computers, Cell Phones etc.(Grey)	42	999.00	299	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09XBJ1CTN	MI Xiaomi 22.5W Fast USB Type C Charger Combo for Tablets - White	28	999.00	170	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0B4F5L738	Samsung Galaxy M13 5G (Aqua Green, 6GB, 128GB Storage) | 5000mAh Battery | Upto 12GB RAM with RAM Plus	22	19499.00	219	2021-01-01 00:00:00	2021-01-01 00:00:00
+B08MTCKDYN	Gizga Essentials Spiral Cable Protector Cord Saver for Mac Charger, iPhone Charger, Wire Protector, Lightweight Durable Flexible Wire Winder for Charging Cables, Data Cables, Earphones, Pack of 10	34	299.00	59	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09QS8V5N8	Redmi Note 11 (Space Black, 4GB RAM, 64GB Storage)|90Hz FHD+ AMOLED Display | Qualcomm® Snapdragon™ 680-6nm | 33W Charger Included	22	17999.00	183	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09HSKYMB3	MI REDMI 9i Sport (Carbon Black, 64 GB) (4 GB RAM)	22	9999.00	268	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07WDK3ZS2	iQOO Z6 Pro 5G by vivo (Legion Sky, 8GB RAM, 128GB Storage) | Snapdragon 778G 5G | 66W FlashCharge | 1300 nits Peak Brightness | HDR10+	22	29990.00	125	2021-01-01 00:00:00	2021-01-01 00:00:00
+B08RWCZ6SY	7SEVEN® Compatible for Sony Bravia LCD LED UHD OLED QLED 4K Ultra HD TV remote control with YouTube and NETFLIX Hotkeys. Universal Replacement for Original Sony Smart Android tv Remote Control	5	899.00	179	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07KSB1MLX	AmazonBasics Digital Optical Coax to Analog RCA Audio Converter Adapter with Fiber Cable	10	1600.00	149	2021-01-01 00:00:00	2021-01-01 00:00:00
+B081FG1QYX	Wayona Type C Cable Nylon Braided USB C QC 3.0 Fast Charging Short Power Bank Cable for Samsung Galaxy S10e/S10+/S10/S9/S9+/Note 9/S8/Note 8, LG G7 G5 G6, Moto G6 G7 (0.25M, Black)	1	999.00	273	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07JW9H4J1	Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible for iPhone 13, 12,11, X, 8, 7, 6, 5, iPad Air, Pro, Mini (3 FT Pack of 1, Grey)	1	1099.00	218	2021-01-01 00:00:00	2021-01-01 00:00:00
 B098NS6PVG	Ambrane Unbreakable 60W / 3A Fast Charging 1.5m Braided Type C Cable for Smartphones, Tablets, Laptops & other Type C devices, PD Technology, 480Mbps Data Sync, Quick Charge 3.0 (RCT15A, Black)	1	349.00	242	2021-01-01 00:00:00	2021-01-01 00:00:00
 B096MSW6CT	Sounce Fast Phone Charging Cable & Data Sync USB Cable Compatible for iPhone 13, 12,11, X, 8, 7, 6, 5, iPad Air, Pro, Mini & iOS Devices	1	1899.00	137	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -5976,11 +6017,6 @@ B0994GFWBH	Lapster 1.5 mtr USB 2.0 Type A Male to USB A Male Cable for computer 
 B01GGKZ0V6	AmazonBasics USB Type-C to USB Type-C 2.0 Cable - 3 Feet Laptop (0.9 Meters) - White	1	845.00	111	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09F9YQQ7B	Redmi 80 cm (32 inches) Android 11 Series HD Ready Smart LED TV | L32M6-RA/L32M7-RA (Black)	4	24999.00	283	2021-01-01 00:00:00	2021-01-01 00:00:00
 B014I8SX4Y	Amazon Basics High-Speed HDMI Cable, 6 Feet (2-Pack),Black	3	1400.00	284	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09Q8HMKZX	Portronics Konnect L 20W PD Quick Charge Type-C to 8-Pin USB Mobile Charging Cable, 1.2M, Tangle Resistant, Fast Data Sync(Grey)	1	699.00	116	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0B9XN9S3W	Acer 80 cm (32 inches) N Series HD Ready TV AR32NSV53HD (Black)	6	14990.00	65	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07966M8XH	Model-P4 6 Way Swivel Tilt Wall Mount 32-55-inch Full Motion Cantilever for LED,LCD and Plasma TV's	7	2999.00	121	2021-01-01 00:00:00	2021-01-01 00:00:00
-B01GGKYKQM	Amazon Basics USB Type-C to USB-A 2.0 Male Fast Charging Cable for Laptop - 3 Feet (0.9 Meters), Black	1	700.00	118	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0B86CDHL1	oraimo 65W Type C to C Fast Charging Cable USB C to USB C Cable High Speed Syncing, Nylon Braided 1M length with LED Indicator Compatible For Laptop, Macbook, Samsung Galaxy S22 S20 S10 S20Fe S21 S21 Ultra A70 A51 A71 A50S M31 M51 M31S M53 5G	1	899.00	68	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B5ZF3NRK	CEDO 65W OnePlus Dash Warp Charge Cable, USB A to Type C Data Sync Fast Charging Cable Compatible with One Plus 3 /3T /5 /5T /6 /6T /7 /7T /7 pro & for All Type C Devices - 1 Meter, Red	1	599.00	217	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09RFC46VP	Redmi 108 cm (43 inches) 4K Ultra HD Android Smart LED TV X43 | L43R7-7AIN (Black)	4	42999.00	99	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08R69VDHT	Pinnaclz Original Combo of 2 Micro USB Fast Charging Cable, USB Charging Cable for Data Transfer Perfect for Android Smart Phones White 1.2 Meter Made in India (Pack of 2)	1	499.00	239	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6019,6 +6055,7 @@ B09QGZFBPM	Wayona Type C To Type C Long Fast Charging Cable Type C Charger Cord 
 B07JGDB5M1	Wayona Nylon Braided 2M / 6Ft Fast Charge Usb To Lightning Data Sync And Charging Cable For Iphone, Ipad Tablet (6 Ft Pack Of 1, Grey)	1	1299.00	79	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0981XSZJ7	CROSSVOLT Compatible Dash/Warp Data Sync Fast Charging Cable Supported for All C Type Devices (Cable)	1	999.00	289	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B9XLX8VR	VU 139 cm (55 inches) The GloLED Series 4K Smart LED Google TV 55GloLED (Grey)	4	65000.00	90	2021-01-01 00:00:00	2021-01-01 00:00:00
+B00GGGOYEK	Storite USB 2.0 A to Mini 5 pin B Cable for External HDDS/Camera/Card Readers 35cm	1	699.00	118	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08Y5KXR6Z	PTron Solero T241 2.4A Type-C Data & Charging USB Cable, Made in India, 480Mbps Data Sync, Durable 1-Meter Long USB Cable for Type-C USB Devices for Charging Adapter (Black)	1	800.00	229	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09F6VHQXB	Croma 80 cm (32 Inches) HD Ready LED TV (CREL7369, Black) (2021 Model)	6	20000.00	292	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0974G5Q2Y	boAt Laptop, Smartphone Type-c A400 Male Data Cable (Carbon Black)	1	999.00	293	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6048,7 +6085,6 @@ B082T6GVG9	AmazonBasics New Release ABS USB-A to Lightning Cable Cord, Fast Char
 B0B3XY5YT4	LG 108 cm (43 inches) 4K Ultra HD Smart LED TV 43UQ7500PSF (Ceramic Black)	4	49990.00	109	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B4HKH19N	pTron Solero 331 3.4Amps Multifunction Fast Charging Cable, 3-in-1 USB Cable Micro USB/Type-C/iOS, Made in India, Durable & Strong & Tangle-free 118cm in Length (Black)	1	931.00	199	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08TGG316Z	10k 8k 4k HDMI Cable, Certified 48Gbps 1ms Ultra High Speed HDMI 2.1 Cable 4k 120Hz 144Hz 2k 165Hz 8k 60Hz Dynamic HDR ARC eARC DTS:X Compatible for Mac Gaming PC Soundbar TV Monitor Laptop PS5 4 Xbox	3	2399.00	299	2021-01-01 00:00:00	2021-01-01 00:00:00
-B071VMP1Z4	LRIPL Compatible Sony Bravia LCD/led Remote Works with Almost All Sony led/LCD tv's	5	399.00	275	2021-01-01 00:00:00	2021-01-01 00:00:00
 B071SDRGWL	boAt Type-c A400 Type-c to USB A Cable for All Type C Phones (Lg nexus 5x), 1Mtr(Black)	1	699.00	185	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08PSQRW2T	Zoul Type C to Type C Fast Charging Cable 65W 2M/6ft USB C Nylon Braided Cord Compatible with MacBook Oneplus 9 9R Samsung Galaxy S21 Ultra S20+ (2M, Black)	1	1099.00	265	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0859M539M	TP-LINK AC1300 Archer T3U Plus High Gain USB 3.0 Wi-Fi Dongle, Wireless Dual Band MU-MIMO WiFi Adapter with High Gain Antenna, Supports Windows 11/10/8.1/8/7/XP/MacOS	2	2999.00	183	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6060,19 +6096,6 @@ B082T6GXS5	AmazonBasics New Release Nylon USB-A to Lightning Cable Cord, MFi Cer
 B09CMQRQM6	Ambrane Fast 100W Output Cable with Type-C to Type-C for Mobile, Laptop, Macbook & Table Charging, 480mbps Data Sync Speed, Braided Cable, 1.5m Length (ABCC-100, Black-Grey)	1	899.00	172	2021-01-01 00:00:00	2021-01-01 00:00:00
 B005LJQMCK	BlueRigger Digital Optical Audio Toslink Cable (3.3 Feet / 1 Meter) With 8 Channel (7.1) Audio Support (for Home Theatre, Xbox, Playstation etc.)	10	599.00	108	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09C6H53KH	Duracell Type-C To Micro 1.2M braided Sync & Charge Cable, USB C to Micro Fast Charge Compatible for fast data transmission (Black)	1	699.00	82	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0BB3CBFBM	VU 138 cm (55 inches) Premium Series 4K Ultra HD Smart IPS LED TV 55UT (Black)	4	65000.00	245	2021-01-01 00:00:00	2021-01-01 00:00:00
-B08QSDKFGQ	Zoul USB Type C Fast Charging 3A Nylon Braided Data Cable Quick Charger Cable QC 3.0 for Samsung Galaxy M31s M30 S10 S9 S20 Plus, Note 10 9 8, A20e A40 A50 A70 (1M, Grey)	1	1099.00	243	2021-01-01 00:00:00	2021-01-01 00:00:00
-B08PV1X771	Samsung 80 cm (32 inches) Wondertainment Series HD Ready LED Smart TV UA32TE40AAKBXL (Titan Gray)	4	20900.00	259	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07YTNKVJQ	MI Xiaomi USB Type C HYperCharge Cable 6A 100cm Sturdy and Durable Black Supports 120W HyperCharging	1	1299.00	160	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0117H7GZ6	GENERIC Ultra-Mini Bluetooth CSR 4.0 USB Dongle Adapter for Windows Computer ( Black:Golden)	2	399.00	212	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09XJ1LM7R	7SEVEN® Compatible for Tata Sky Remote Original Set Top HD Box and Suitable for SD Tata Play setup Box Remote Control	5	799.00	267	2021-01-01 00:00:00	2021-01-01 00:00:00
-B084N133Y7	Belkin Apple Certified Lightning To Type C Cable, Fast Charging For Iphone, Ipad, Air Pods, 3.3 Feet (1 Meters)    White	1	1999.00	101	2021-01-01 00:00:00	2021-01-01 00:00:00
-B088Z1YWBC	EGate i9 Pro-Max 1080p Native Full HD Projector 4k Support | 3600 L (330 ANSI ) | 150" (381 cm) Large Screen | VGA, AV, HDMI, SD Card, USB, Audio Out | (E03i31 / E04i32) Black	11	15990.00	133	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07VSG5SXZ	ZEBRONICS HAA2021 HDMI version 2.1 cable with 8K @ 60Hz, 4K @ 120Hz, eARC & CEC support, 3D compatible, 2 meters length, 48Gbps max and Gold-plated connectors	3	1499.00	234	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07WDK3ZS2	iQOO Z6 Pro 5G by vivo (Legion Sky, 8GB RAM, 128GB Storage) | Snapdragon 778G 5G | 66W FlashCharge | 1300 nits Peak Brightness | HDR10+	22	29990.00	125	2021-01-01 00:00:00	2021-01-01 00:00:00
-B08RWCZ6SY	7SEVEN® Compatible for Sony Bravia LCD LED UHD OLED QLED 4K Ultra HD TV remote control with YouTube and NETFLIX Hotkeys. Universal Replacement for Original Sony Smart Android tv Remote Control	5	899.00	179	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07KSB1MLX	AmazonBasics Digital Optical Coax to Analog RCA Audio Converter Adapter with Fiber Cable	10	1600.00	149	2021-01-01 00:00:00	2021-01-01 00:00:00
-B081FG1QYX	Wayona Type C Cable Nylon Braided USB C QC 3.0 Fast Charging Short Power Bank Cable for Samsung Galaxy S10e/S10+/S10/S9/S9+/Note 9/S8/Note 8, LG G7 G5 G6, Moto G6 G7 (0.25M, Black)	1	999.00	273	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08R69WBN7	Pinnaclz Original Combo of 2 USB Type C Fast Charging Cable, USB C Data Cable for Charging and Data Transfer Smart Phones White 1.2 Meter Made in India (Pack of 2)	1	499.00	259	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B3RHX6B6	Ambrane BCL-15 Lightning Cable for Smartphone (1.5m Black)	1	399.00	299	2021-01-01 00:00:00	2021-01-01 00:00:00
 B084N18QZY	Belkin USB C to USB-C Fast Charging Type C Cable, 60W PD, 3.3 feet (1 meter) for Laptop, Personal Computer, Tablet, Smartphone - Black, USB-IF Certified	1	849.00	241	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6088,7 +6111,7 @@ B08CTNJ985	Wayona USB Type C 65W Fast Charging 2M/6Ft Long Flash Charge Cable 3A
 B0BP7XLX48	Syncwire LTG to USB Cable for Fast Charging Compatible with Phone 5/ 5C/ 5S/ 6/ 6S/ 7/8/ X/XR/XS Max/ 11/12/ 13 Series and Pad Air/Mini, Pod & Other Devices (1.1 Meter, White)	1	1999.00	162	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09LHXNZLR	Skadioo WiFi Adapter for pc | Car Accessories, WiFi Dongle for pc | USB WiFi Adapter for pc | Wi-Fi Receiver 2.4GHz, 802.11b/g/n UNano Size WiFi Dongle Compatible Adapter,WiFi dongle for pc	2	499.00	145	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B3N8VG24	FLiX (Beetel USB to Type C PVC Data Sync & 15W(3A) TPE Fast Charging Cable, Made in India, 480Mbps Data Sync, 1 Meter Long cable for all Andriod & all Type C Devices (Black)(XCD - FPC02)	1	299.00	78	2021-01-01 00:00:00	2021-01-01 00:00:00
-B08PSVBB2X	Zoul USB C to USB C Fast Charging Cable 65W Type C to Type C Nylon Braided Cord Compatible with Macbook Oneplus 9 10R Samsung Galaxy S22 S21 Ultra Z Flip3 Macbook Air/Pro M1 Google Pixel 11'' iPad Pro 2020/2018 (2M, Grey)	1	1099.00	192	2021-01-01 00:00:00	2021-01-01 00:00:00
+B08PSVBB2X	Zoul USB C to USB C Fast Charging Cable 65W Type C to Type C Nylon Braided Cord Compatible with Macbook Oneplus 9 10R Samsung Galaxy S22 S21 Ultra Z Flip3 Macbook Air/Pro M1 Google Pixel 11 iPad Pro 2020/2018 (2M, Grey)	1	1099.00	192	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B3MQXNFB	FLiX (Beetel Flow USB to Micro USB PVC Data Sync & 12W(2.4A) Fast Charging Cable,Made in India,480Mbps Data Sync,Solid Cable,1 Meter Long cable for all Andriod & Micro USB Devices (Black)(XCD-FPM01)	1	199.00	298	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08XMSKKMM	7SEVEN® Bluetooth Voice Command Remote for Xiaomi Redmi Mi Smart TV with Netflix & Prime Video Hot Keys XMRM-00A	5	1999.00	110	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09L8DT7D6	Sony TV - Remote Compatible for Sony LED Remote Control Works with Sony LED TV by Trend Trail Speed tech & Remote hi Remote & REO India only	5	499.00	292	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6112,16 +6135,6 @@ B0B6F8HHR6	MI 108 cm (43 inches) 5A Series Full HD Smart Android LED TV L43M7-EA
 B084MZXJN6	Belkin Apple Certified Lightning to USB Charge and Sync Cable for iPhone, iPad, Air Pods, 39.6 inch (100cm) – Black	1	1699.00	73	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08XMG618K	Time Office Scanner Replacement Cable for Startek FM220U (Type C) Ivory	1	499.00	104	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BCKWZ884	Caldipree Silicone Case Cover Compatible for 2022 Samsung Smart TV Remote QLED TV BN68-13897A TM2280E (2022-BLACK)	5	2999.00	63	2021-01-01 00:00:00	2021-01-01 00:00:00
-B00GGGOYEK	Storite USB 2.0 A to Mini 5 pin B Cable for External HDDS/Camera/Card Readers 35cm	1	699.00	118	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07ZR4S1G4	Universal Remote Control for All Sony TV for All LCD LED and Bravia TVs Remote	5	699.00	234	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09C635BMM	Cotbolt Silicone Case Cover Compatible for Samsung BN59-01312A QLED 8K 4K Smart TV Remote Shockproof Protective Remote Cover (Black)	5	999.00	161	2021-01-01 00:00:00	2021-01-01 00:00:00
-B00GG59HU2	BlueRigger High Speed HDMI Cable with Ethernet - Supports 3D, 4K 60Hz and Audio Return - Latest Version (3 Feet / 0.9 Meter)	3	599.00	194	2021-01-01 00:00:00	2021-01-01 00:00:00
-B00RGLI0ZS	Amkette 30 Pin to USB Charging & Data Sync Cable for iPhone 3G/3GS/4/4s/iPad 1/2/3, iPod Nano 5th/6th Gen and iPod Touch 3rd/4th Gen -1.5m (Black)	1	599.00	167	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09ZPJT8B2	TCL 80 cm (32 inches) HD Ready Certified Android Smart LED TV 32S615 (Black)	4	31990.00	247	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07HZ2QCGR	POPIO Type C Dash Charging USB Data Cable for OnePlus Devices	1	599.00	59	2021-01-01 00:00:00	2021-01-01 00:00:00
-B095244Q22	MYVN LTG to USB for Fast Charging & Data Sync USB Cable Compatible for iPhone 5/5s/6/6S/7/7+/8/8+/10/11, iPad Air/Mini, iPod and iOS Devices (1 M)	1	999.00	176	2021-01-01 00:00:00	2021-01-01 00:00:00
-B08CKW1KH9	Tata Sky Universal Remote Compatible for SD/HD	5	599.00	224	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0BLV1GNLN	WZATCO Pixel | Portable LED Projector | Native 720p with Full HD 1080P Support | 2000 Lumens (200 ANSI) | 176" Large Screen | Projector for Home and Outdoor | Compatible with TV Stick, PC, PS4	11	9990.00	223	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08RHPDNVV	7SEVEN® Compatible Tata Sky Remote Control Replacement of Original dth SD HD tata Play Set top Box Remote - IR Learning Universal Remote for Any Brand TV - Pairing Must	5	599.00	193	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00NH13Q8W	AmazonBasics USB 2.0 Extension Cable for Personal Computer, Printer, 2-Pack - A-Male to A-Female - 3.3 Feet (1 Meter, Black)	1	800.00	178	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B8SSZ76F	Amazon Basics USB C to Lightning TPE MFi Certified Charging Cable (White, 1.2 meter)	1	1999.00	265	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6133,7 +6146,6 @@ B06XR9PR5X	Amazon Basics HDMI Coupler,Black	12	600.00	225	2021-01-01 00:00:00	20
 B09JSW16QD	boAt LTG 550v3 Lightning Apple MFi Certified Cable with Spaceship Grade Aluminium Housing,Stress Resistance, Rapid 2.4A Charging & 480mbps Data Sync, 1m Length & 10000+ Bends Lifespan(Mercurial Black)	1	1490.00	67	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07JH1CBGW	Wayona Nylon Braided Usb Syncing And Charging Cable Sync And Charging Cable For Iphone, Ipad (3 Ft, Black) - Pack Of 2	1	1999.00	265	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09127FZCK	Astigo Compatible Remote for Airtel Digital Set Top Box (Pairing Required with TV Remote)	5	899.00	226	2021-01-01 00:00:00	2021-01-01 00:00:00
-B083GQGT3Z	Caprigo Heavy Duty TV Wall Mount Stand for 12 to 27 inches LED/LCD/Monitor Screen's, Full Motion Rotatable Universal TV & Monitor Wall Mount Bracket with Swivel & Tilt Adjustments (Single Arm - M416)	7	799.00	209	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09Q8WQ5QJ	Portronics Konnect L 60W PD Type C to Type C Mobile Charging Cable, 1.2M, Fast Data Sync, Tangle Resistant, TPE+Nylon Braided(Grey)	1	499.00	171	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07YZG8PPY	TATA SKY HD Connection with 1 month basic package and free installation	13	2299.00	82	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09H39KTTB	Remote Compatible for Samsung LED/LCD Remote Control Works with Samsung LED/LCD TV by Trend Trail	5	499.00	249	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6163,10 +6175,6 @@ B09BW2GP18	Croma 3A Fast charge 1m Type-C to All Type-C Phones sync and charge c
 B09WN3SRC7	Sony Bravia 164 cm (65 inches) 4K Ultra HD Smart LED Google TV KD-65X74K (Black)	4	139900.00	195	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09B125CFJ	7SEVEN® Compatible for Mi tv Remote Control Original Suitable with Smart Android 4K LED Non Voice Command Xiaomi Redmi Remote of 4A Model 32 43 55 65 inches	5	799.00	270	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09RQRZW2X	7SEVEN® Compatible Vu Smart Tv Remote Control Suitable for Original 4K Android LED Ultra HD UHD Vu Tv Remote with Non Voice Feature without google assistant	5	899.00	299	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07924P3C5	Storite High Speed Micro USB 3.0 Cable A to Micro B for External & Desktop Hard Drives 45cm	1	799.00	109	2021-01-01 00:00:00	2021-01-01 00:00:00
-B08N1WL9XW	FLiX (Beetel) 3in1 (Type C|Micro|Iphone Lightening) Textured Pattern 3A Fast Charging Cable with QC & PD Support for Type C,Micro USB & Lightning Iphone Cable,Made in India,1.5 Meter Long Cable(T101)	1	599.00	277	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07VVXJ2P5	SVM Products Unbreakable Set Top Box Stand with Dual Remote Holder (Black)	7	399.00	161	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0BC8BQ432	VU 164 cm (65 inches) The GloLED Series 4K Smart LED Google TV 65GloLED (Grey)	4	85000.00	136	2021-01-01 00:00:00	2021-01-01 00:00:00
 B06XFTHCNY	CableCreation RCA to 3.5mm Male Audio Cable, 3.5mm to 2RCA Cable Male RCA Cable,Y Splitter Stereo Jack Cable for Home Theater,Subwoofer, Receiver, Speakers and More (3Feet/0.9Meter,Black)	8	758.00	204	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08CT62BM1	Wayona USB Type C Fast Charging Cable Charger Cord 3A QC 3.0 Data Cable Compatible with Samsung Galaxy S10e S10 S9 S8 S20 Plus, Note 10 9 8, M51 A40 A50 A70, Moto G7 G8 (1M, Grey)	1	999.00	165	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07CRL2GY6	boAt Rugged V3 Braided Micro USB Cable (Pearl White)	1	799.00	229	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6210,6 +6218,7 @@ B08XXF5V6G	Kodak 139 cm (55 inches) 4K Ultra HD Smart LED TV 55CA0909 (Black)	4	
 B09HK9JH4F	Smashtronics® - Case for Firetv Remote, Fire Stick Remote Cover Case, Silicone Cover for TV Firestick 4K/TV 2nd Gen(3rd Gen) Remote Control - Light Weight/Anti Slip/Shockproof (Black)	5	399.00	145	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09MMD1FDN	7SEVEN® Suitable Sony Tv Remote Original Bravia for Smart Android Television Compatible for Any Model of LCD LED OLED UHD 4K Universal Sony Remote Control	5	699.00	88	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09HN7LD5L	PROLEGEND® PL-T002 Universal TV Stand Table Top for Most 22 to 65 inch LCD Flat Screen TV, VESA up to 800 by 400mm	7	4500.00	153	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0B56YRBNT	Tecno Spark 9 (Sky Mirror, 6GB RAM,128GB Storage) | 11GB Expandable RAM | Helio G37 Gaming Processor	22	13499.00	235	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BNDD9TN6	WANBO X1 Pro (Upgraded) | Native 1080P Full HD | Android 9 | Projector for Home | LED Cinema | 350ANSI | 3900 lumens | WiFi Bluetooth | HDMI ARC | Dolby DTS | 4D Keystone Correction (Global Version)	11	28900.00	236	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0941392C8	Lava Charging Adapter Elements D3 2A Fast Charging Speed Usb Type C Data Cable, White	1	449.00	235	2021-01-01 00:00:00	2021-01-01 00:00:00
 B01M5967SY	TIZUM High Speed HDMI Cable Aura -Gold Plated-High Speed Data 10.2Gbps, 3D, 4K, HD 1080P (10 Ft/ 3 M)	3	999.00	59	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6276,7 +6285,7 @@ B09TWHTBKQ	Samsung Galaxy M33 5G (Mystique Green, 8GB, 128GB Storage) | 6000mAh 
 B08L5HMJVW	SanDisk Ultra microSD UHS-I Card 32GB, 120MB/s R	23	700.00	73	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B4F2XCK3	Samsung Galaxy M13 (Aqua Green, 6GB, 128GB Storage) | 6000mAh Battery | Upto 12GB RAM with RAM Plus	22	17999.00	212	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BF54972T	Fire-Boltt Ninja Call Pro Plus 1.83" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240*280 Pixel High Resolution	20	19999.00	107	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09YV4MW2T	Fire-Boltt India's No 1 Smartwatch Brand Talk 2 Bluetooth Calling Smartwatch with Dual Button, Hands On Voice Assistance, 60 Sports Modes, in Built Mic & Speaker with IP68 Rating	20	9999.00	94	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09YV4MW2T	Fire-Boltt Indias No 1 Smartwatch Brand Talk 2 Bluetooth Calling Smartwatch with Dual Button, Hands On Voice Assistance, 60 Sports Modes, in Built Mic & Speaker with IP68 Rating	20	9999.00	94	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09TWH8YHM	Samsung Galaxy M33 5G (Emerald Brown, 6GB, 128GB Storage) | 6000mAh Battery | Upto 12GB RAM with RAM Plus | Travel Adapter to be Purchased Separately	22	24999.00	146	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07WGMMQGP	iQOO vivo Z6 5G (Chromatic Blue, 6GB RAM, 128GB Storage) | Snapdragon 695-6nm Processor | 120Hz FHD+ Display | 5000mAh Battery	22	20999.00	242	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BF563HB4	Fire-Boltt Ninja Call Pro Plus 1.83" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240*280 Pixel High Resolution	20	19999.00	135	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6287,7 +6296,7 @@ B09XB7DPW1	Redmi 10A (Sea Blue, 4GB RAM, 64GB Storage) | 2 Ghz Octa Core Helio G
 B07PFJ5W31	AGARO Blaze USB 3.0 to USB Type C OTG Adapter	29	495.00	188	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B3N7LR6K	Fire-Boltt Visionary 1.78" AMOLED Bluetooth Calling Smartwatch with 368*448 Pixel Resolution 100+ Sports Mode, TWS Connection, Voice Assistance, SPO2 & Heart Rate Monitoring	20	16999.00	112	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09ZQK9X8G	Noise ColorFit Pro 4 Advanced Bluetooth Calling Smart Watch with 1.72" TruView Display, Fully-Functional Digital Crown, 311 PPI, 60Hz Refresh Rate, 500 NITS Brightness (Charcoal Black)	20	5999.00	127	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07WJV6P1R	iQOO Z6 Lite 5G by vivo (Stellar Green, 6GB RAM, 128GB Storage) | World's First Snapdragon 4 Gen 1 | 120Hz Refresh Rate | 5000mAh Battery | Travel Adapter to be Purchased Separately	22	18999.00	161	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07WJV6P1R	iQOO Z6 Lite 5G by vivo (Stellar Green, 6GB RAM, 128GB Storage) | Worlds First Snapdragon 4 Gen 1 | 120Hz Refresh Rate | 5000mAh Battery | Travel Adapter to be Purchased Separately	22	18999.00	161	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BF54LXW6	Fire-Boltt Ninja Call Pro Plus 1.83" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240*280 Pixel High Resolution	20	19999.00	86	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09XB7SRQ5	Redmi 10A (Slate Grey, 4GB RAM, 64GB Storage) | 2 Ghz Octa Core Helio G25 | 5000 mAh Battery | Finger Print Sensor | Upto 5GB RAM with RAM Booster	22	11999.00	83	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09FFK1PQG	Duracell 38W Fast Car Charger Adapter with Dual Output. Quick Charge, Type C PD 20W & Qualcomm Certified 3.0 Compatible for iPhone, All Smartphones, Tablets & More (Copper & Black)	26	1699.00	81	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6326,17 +6335,13 @@ B07RD611Z8	Ambrane 20000mAh Power Bank with 20W Fast Charging, Triple Output, Po
 B0B4F52B5X	Samsung Galaxy M13 (Midnight Blue, 4GB, 64GB Storage) | 6000mAh Battery | Upto 8GB RAM with RAM Plus	22	14999.00	133	2021-01-01 00:00:00	2021-01-01 00:00:00
 B096VF5YYF	boAt Xtend Smartwatch with Alexa Built-in, 1.69” HD Display, Multiple Watch Faces, Stress Monitor, Heart & SpO2 Monitoring, 14 Sports Modes, Sleep Monitor, 5 ATM & 7 Days Battery(Pitch Black)	20	7990.00	170	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B5D39BCD	boAt Wave Call Smart Watch, Smart Talk with Advanced Dedicated Bluetooth Calling Chip, 1.69” HD Display with 550 NITS & 70% Color Gamut, 150+ Watch Faces, Multi-Sport Modes, HR, SpO2, IP68(Deep Blue)	20	7990.00	174	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09XBJ1CTN	MI Xiaomi 22.5W Fast USB Type C Charger Combo for Tablets - White	28	999.00	170	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0B4F5L738	Samsung Galaxy M13 5G (Aqua Green, 6GB, 128GB Storage) | 5000mAh Battery | Upto 12GB RAM with RAM Plus	22	19499.00	219	2021-01-01 00:00:00	2021-01-01 00:00:00
-B08MTCKDYN	Gizga Essentials Spiral Cable Protector Cord Saver for Mac Charger, iPhone Charger, Wire Protector, Lightweight Durable Flexible Wire Winder for Charging Cables, Data Cables, Earphones, Pack of 10	34	299.00	59	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09QS8V5N8	Redmi Note 11 (Space Black, 4GB RAM, 64GB Storage)|90Hz FHD+ AMOLED Display | Qualcomm® Snapdragon™ 680-6nm | 33W Charger Included	22	17999.00	183	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09T2WRLJJ	Redmi Note 11 Pro + 5G (Phantom White, 8GB RAM, 128GB Storage) | 67W Turbo Charge | 120Hz Super AMOLED Display | Additional Exchange Offers | Charger Included	22	26999.00	263	2021-01-01 00:00:00	2021-01-01 00:00:00
 B089WB69Y1	USB Charger, Oraimo Elite Dual Port 5V/2.4A Wall Charger, USB Wall Charger Adapter for iPhone 11/Xs/XS Max/XR/X/8/7/6/Plus, iPad Pro/Air 2/Mini 3/Mini 4, Samsung S4/S5, and More	28	649.00	213	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0116MIKKC	Goldmedal Curve Plus 202042 Plastic Spice 3-Pin 240V Universal Travel Adaptor (White)	28	171.00	138	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09P858DK8	WeCool C1 Car Mobile Holder with One Click Technology,360° Rotational, Strong Suction Cup,Compatible with 4 to 6 Inch Devices, Wildshield and Dashboard Mobile Holder for Car, and Use	27	1999.00	50	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07DJLFMPS	HP 32GB Class 10 MicroSD Memory Card (U1 TF Card 32GB)	23	1600.00	60	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07WHQWXL7	iQOO Z6 44W by vivo (Lumina Blue, 6GB RAM, 128GB Storage) | 6.44" FHD+ AMOLED Display | 50% Charge in just 27 mins | in-Display Fingerprint Scanning	22	20999.00	203	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07WDK3ZS6	iQOO Z6 Lite 5G by vivo (Mystic Night, 6GB RAM, 128GB Storage) | World's First Snapdragon 4 Gen 1 | 120Hz Refresh Rate | 5000mAh Battery | Travel Adapter to be Purchased Separately	22	18999.00	133	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07WDK3ZS6	iQOO Z6 Lite 5G by vivo (Mystic Night, 6GB RAM, 128GB Storage) | Worlds First Snapdragon 4 Gen 1 | 120Hz Refresh Rate | 5000mAh Battery | Travel Adapter to be Purchased Separately	22	18999.00	133	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09T2S8X9C	Redmi Note 11 Pro + 5G (Stealth Black, 8GB RAM, 256GB Storage) | 67W Turbo Charge | 120Hz Super AMOLED Display | Additional Exchange Offers | Charger Included	22	28999.00	125	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07S9S86BF	boAt Bassheads 242 in Ear Wired Earphones with Mic(Active Black)	25	1490.00	112	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07N8RQ6W7	Portronics MODESK POR-122 Universal Mobile Tabletop Holder (Black)	32	699.00	50	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6369,13 +6374,12 @@ B09GFM8CGS	Redmi 9A Sport (Carbon Black, 2GB RAM, 32GB Storage) | 2GHz Octa-core
 B0B3MWYCHQ	Fire-Boltt Ring 3 Smart Watch 1.8 Biggest Display with Advanced Bluetooth Calling Chip, Voice Assistance,118 Sports Modes, in Built Calculator & Games, SpO2, Heart Rate Monitoring	20	9999.00	67	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09J2MM5C6	Amozo Ultra Hybrid Camera and Drop Protection Back Cover Case for iPhone 13 (TPU + Polycarbonate | Crystal Transparent)	38	1499.00	248	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07Q4QV1DL	ELV Aluminum Adjustable Mobile Phone Foldable Tabletop Stand Dock Mount for All Smartphones, Tabs, Kindle, iPad (Black)	32	1499.00	146	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0B56YRBNT	Tecno Spark 9 (Sky Mirror, 6GB RAM,128GB Storage) | 11GB Expandable RAM | Helio G37 Gaming Processor	22	13499.00	235	2021-01-01 00:00:00	2021-01-01 00:00:00
 B01DF26V7A	JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Premium Metallic Finish, Angled Buds for Comfort fit (Red)	25	1299.00	86	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08K4PSZ3V	Tukzer Capacitive Stylus Pen for Touch Screens Devices, Fine Point, Lightweight Metal Body with Magnetism Cover Cap for Smartphones/Tablets/iPad/iPad Pro/iPhone (Grey)	36	999.00	125	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B4F1YC3J	Samsung Galaxy M13 5G (Aqua Green, 6GB, 128GB Storage) | 5000mAh Battery | Upto 12GB RAM with RAM Plus	22	19499.00	292	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08K4RDQ71	Tukzer Capacitive Stylus Pen for Touch Screens Devices, Fine Point, Lightweight Metal Body with Magnetism Cover Cap for Smartphones/Tablets/iPad/iPad Pro/iPhone (White)	36	999.00	242	2021-01-01 00:00:00	2021-01-01 00:00:00
 B085CZ3SR1	Mi 10W Wall Charger for Mobile Phones with Micro USB Cable (Black)	28	599.00	97	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09YV3K34W	Fire-Boltt India's No 1 Smartwatch Brand Talk 2 Bluetooth Calling Smartwatch with Dual Button, Hands On Voice Assistance, 60 Sports Modes, in Built Mic & Speaker with IP68 Rating	20	9999.00	296	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09YV3K34W	Fire-Boltt Indias No 1 Smartwatch Brand Talk 2 Bluetooth Calling Smartwatch with Dual Button, Hands On Voice Assistance, 60 Sports Modes, in Built Mic & Speaker with IP68 Rating	20	9999.00	296	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09Z6WH2N1	STRIFF 12 Pieces Highly Flexible Silicone Micro USB Protector, Mouse Cable Protector, Suit for All Cell Phones, Computers and Chargers (White)	34	499.00	184	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09NL4DJ2Z	FLiX (Beetel) USB to Type C PVC Data Sync & 2A Smartphone Fast Charging Cable, Made in India, 480Mbps Data Sync, Tough Cable, 1 Meter Long USB Cable for USB Type C Devices Black XCD-C12	1	249.00	267	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BGSV43WY	Noise ColorFit Pro 4 Alpha Bluetooth Calling Smart Watch with 1.78 AMOLED Display, Tru Sync, 60hz Refresh Rate, instacharge, Gesture Control, Functional 360 Digital Crown (Jet Black)	20	7999.00	122	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6393,7 +6397,7 @@ B0BD3T6Z1D	Samsung Galaxy M32 Prime Edition (Light Blue, 4GB RAM, 64GB)	22	13499
 B09LHYZ3GJ	Redmi Note 11T 5G (Matte Black, 6GB RAM, 128GB ROM)| Dimensity 810 5G | 33W Pro Fast Charging | Charger Included | Additional Exchange Offers|Get 2 Months of YouTube Premium Free!	22	20999.00	55	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07WFPMGQQ	iQOO Z6 Pro 5G by vivo (Legion Sky, 6GB RAM, 128GB Storage) | Snapdragon 778G 5G | 66W FlashCharge | 1300 nits Peak Brightness | HDR10+	22	27990.00	131	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09QS9X9L8	Redmi Note 11 (Horizon Blue, 6GB RAM, 64GB Storage)|90Hz FHD+ AMOLED Display | Qualcomm® Snapdragon™ 680-6nm | 33W Charger Included	22	18999.00	162	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0B6BLTGTT	Noise Pulse 2 Max Advanced Bluetooth Calling Smart Watch with 1.85'' TFT and 550 Nits Brightness, Smart DND, 10 Days Battery, 100 Sports Mode, Smartwatch for Men and Women - (Jet Black)	20	5999.00	161	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0B6BLTGTT	Noise Pulse 2 Max Advanced Bluetooth Calling Smart Watch with 1.85 TFT and 550 Nits Brightness, Smart DND, 10 Days Battery, 100 Sports Mode, Smartwatch for Men and Women - (Jet Black)	20	5999.00	161	2021-01-01 00:00:00	2021-01-01 00:00:00
 B084DTMYWK	Myvn 30W Warp/20W Dash Charging Usb Type C Charger Cable Compatible For Cellular Phones Oneplus 8T 8 8Pro 7 Pro / 7T / 7T Pro Nord And Oneplus 3 / 3T / 5 / 5T / 6 / 6T / 7	28	999.00	98	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B53QLB9H	PTron Newly Launched Force X10 Bluetooth Calling Smartwatch with 1.7" Full Touch Color Display, Real Heart Rate Monitor, SpO2, Watch Faces, 5 Days Runtime, Fitness Trackers & IP68 Waterproof (Blue)	20	5999.00	294	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BDYW3RN3	SanDisk Ultra® microSDXC™ UHS-I Card, 256GB, 150MB/s R, 10 Y Warranty, for Smartphones	23	3500.00	172	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6405,6 +6409,7 @@ B0BMVWKZ8G	Newly Launched Boult Dive+ with 1.85" HD Display, Bluetooth Calling S
 B0BD92GDQH	OnePlus Nord Watch with 1.78” AMOLED Display, 60 Hz Refresh Rate, 105 Fitness Modes, 10 Days Battery, SPO2, Heart Rate, Stress Monitor, Women Health Tracker & Multiple Watch Face [Midnight Black]	20	6999.00	246	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B5GF6DQD	Noise Agile 2 Buzz Bluetooth Calling Smart Watch with 1.28" TFT Display,Dual Button,in-Built Mic & Speaker,AI Voice Assistant, Health Suite,in-Built Games, 100 Watch Faces-(Jet Black)	20	5999.00	226	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09JS94MBV	Motorola a10 Dual Sim keypad Mobile with 1750 mAh Battery, Expandable Storage Upto 32GB, Wireless FM with Recording - Dark Blue	24	1630.00	51	2021-01-01 00:00:00	2021-01-01 00:00:00
+B01MQZ7J8K	Prestige Electric Kettle PKOSS - 1500watts, Steel (1.5Ltr), Black	139	1445.00	210	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09YV463SW	Fire-Boltt Ninja 3 Smartwatch Full Touch 1.69 " & 60 Sports Modes with IP68, Sp02 Tracking, Over 100 Cloud based watch faces ( Silver )	20	9999.00	69	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09NL4DCXK	Flix (Beetel) Bolt 2.4 12W Dual USB Smart Charger, Made in India, Bis Certified, Fast Charging Power Adaptor with 1 Meter USB to Type C Cable for Cellular Phones (White)(Xwc-64D)	28	599.00	133	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B8CHJLWJ	Kyosei Advanced Tempered Glass Compatible with Google Pixel 6a with Military-Grade Anti-Explosion Edge-to-Edge Coverage Screen Protector Guard	35	1199.00	188	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6443,8 +6448,6 @@ B0B2X35B1K	Noise ColorFit Ultra 2 Buzz 1.78" AMOLED Bluetooth Calling Watch with
 B09QS9CWLV	Redmi Note 11 (Horizon Blue, 6GB RAM, 64GB Storage)|90Hz FHD+ AMOLED Display | Qualcomm® Snapdragon™ 680-6nm | 33W Charger Included	22	18999.00	127	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B1NX6JTN	Spigen Ultra Hybrid Back Cover Case Compatible with iPhone 14 Pro max (TPU + Poly Carbonate | Crystal Clear)	38	2599.00	163	2021-01-01 00:00:00	2021-01-01 00:00:00
 B078G6ZF5Z	Oraimo 18W USB & Type-C Dual Output Super Fast Charger Wall Adapter PE2.0&Quick Charge 3.0 & Power Delivery 3.0 Compatible for iPhone 13/13 Mini/13 Pro Max/12/12 Pro Max, iPad Mini/Pro, Pixel, Galaxy, Airpods Pro	28	1199.00	68	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0BBW521YC	LAPSTER 12pcs Spiral Cable Protectors for Charger, Wires, Data Charger Cable Protector for Computers, Cell Phones etc.(Grey)	42	999.00	299	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09HSKYMB3	MI REDMI 9i Sport (Carbon Black, 64 GB) (4 GB RAM)	22	9999.00	268	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09YV42QHZ	Fire-Boltt Ninja 3 Smartwatch Full Touch 1.69 " & 60 Sports Modes with IP68, Sp02 Tracking, Over 100 Cloud based watch faces ( Green )	20	7999.00	58	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09BF8JBWX	Lava A1 Josh 21(Blue Silver) -Dual Sim,Call Blink Notification,Military Grade Certified with 4 Day Battery Backup, Keypad Mobile	24	1249.00	162	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B5YBGCKD	POPIO Tempered Glass Compatible for iPhone 13 / iPhone 13 Pro/iPhone 14 (Transparent) Edge to Edge Full Screen Coverage with Installation Kit, Pack of 2	35	599.00	73	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6460,6 +6463,7 @@ B0B3NDPCS9	Fire-Boltt Visionary 1.78" AMOLED Bluetooth Calling Smartwatch with 3
 B09VGKFM7Y	Amazon Basics 2 Amp USB Wall Charger & Micro USB Cable (White)	28	499.00	106	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07QCWY5XV	Mobilife Bluetooth Extendable Selfie Stick with Tripod Stand and Wireless Remote,3-in-1 Multifunctional Selfie Stick Tripod for iPhone Samsung Mi Realme Oppo Vivo Google More,Black	31	1399.00	267	2021-01-01 00:00:00	2021-01-01 00:00:00
 B098QXR9X2	Ambrane 27000mAh Power Bank, 20W Fast Charging, Triple Output, Type C PD (Input & Output), Quick Charge, Li-Polymer, Multi-Layer Protection for iPhone, Smartphones & Other Devices (Stylo Pro, Black)	21	2999.00	290	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07966M8XH	Model-P4 6 Way Swivel Tilt Wall Mount 32-55-inch Full Motion Cantilever for LED,LCD and Plasma TVs	7	2999.00	121	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07H1S7XW8	STRIFF Wall Mount Phone Holder Wall Mount with Adhesive Strips, Charging Holder Compatible with iPhone, Smartphone and Mini Tablet (Pack of 1) (White)	43	499.00	191	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BNXFDTZ2	Fire-Boltt Tank 1.85" Bluetooth Calling Smart Watch, 123 Sports Mode, 8 UI Interactions, Built in Speaker & Mic, 7 Days Battery & Fire-Boltt Health Suite	20	11999.00	101	2021-01-01 00:00:00	2021-01-01 00:00:00
 B088ZFJY82	Elv Aluminium Adjustable Mobile Phone Foldable Holder Tabletop Stand Dock Mount for All Smartphones, Tabs, Kindle, iPad (Moonlight Silver)	32	1499.00	98	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6536,6 +6540,7 @@ B08QJJCY2Q	Tizum Mouse Pad/ Computer Mouse Mat with Anti-Slip Rubber Base | Smoo
 B07L5L4GTB	Epson 003 65 ml for EcoTank L1110/L3100/L3101/L3110/L3115/L3116/L3150/L3151/L3152/L3156/L5190 Black Ink Bottle	61	404.00	297	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07L8KNP5F	ZEBRONICS Zeb-Thunder Bluetooth Wireless Over Ear Headphone FM, mSD, 9 hrs Playback with Mic (Black)	40	1399.00	272	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08CF4SCNP	Quantum QHM-7406 Full-Sized Keyboard with (₹) Rupee Symbol, Hotkeys and 3-pieces LED function for Desktop/Laptop/Smart TV Spill-Resistant Wired USB Keyboard with 10 million keystrokes lifespan (Black)	49	599.00	184	2021-01-01 00:00:00	2021-01-01 00:00:00
+B098JYT4SY	Zebronics Zeb-Jaguar Wireless Mouse, 2.4GHz with USB Nano Receiver, High Precision Optical Tracking, 4 Buttons, Plug & Play, Ambidextrous, for PC/Mac/Laptop (Black+Grey)	45	1190.00	196	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09XX51X2G	STRIFF Laptop Tabletop Stand, Fold-Up, Adjustable, Ventilated, Portable Holder for Desk, Aluminum Foldable Laptop Ergonomic Compatibility with up to 15.6-inch Laptop, All Mac, Tab, and Mobile (Silver)	47	999.00	108	2021-01-01 00:00:00	2021-01-01 00:00:00
 B01M72LILF	Logitech M221 Wireless Mouse, Silent Buttons, 2.4 GHz with USB Mini Receiver, 1000 DPI Optical Tracking, 18-Month Battery Life, Ambidextrous PC / Mac / Laptop - Charcoal Grey	45	1295.00	198	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00LZLQ624	Classmate Soft Cover 6 Subject Spiral Binding Notebook, Single Line, 300 Pages	73	160.00	63	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6558,6 +6563,7 @@ B07DFYJRQV	JBL C200SI, Premium in Ear Wired Earphones with Mic, Signature Sound,
 B08L879JSN	Acer EK220Q 21.5 Inch (54.61 cm) Full HD (1920x1080) VA Panel LCD Monitor with LED Back Light I 250 Nits I HDMI, VGA Ports I Eye Care Features Like Bluelight Shield, Flickerless & Comfy View (Black)	80	13750.00	103	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08TDJNM3G	E-COSMOS 5V 1.2W Portable Flexible USB LED Light (Colors May Vary, Small) - Set of 2 Pieces	81	59.00	299	2021-01-01 00:00:00	2021-01-01 00:00:00
 B06XSK3XL6	boAt Dual Port Rapid Car Charger (Qualcomm Certified) with Quick Charge 3.0 + Free Micro USB Cable - (Black)	26	999.00	230	2021-01-01 00:00:00	2021-01-01 00:00:00
+B01GFTEV5Y	Pigeon by Stovekraft Cruise 1800 watt Induction Cooktop (Black)	145	3193.00	54	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07YNTJ8ZM	Zebronics ZEB-COUNTY 3W Wireless Bluetooth Portable Speaker With Supporting Carry Handle, USB, SD Card, AUX, FM & Call Function. (Green)	71	999.00	162	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07KR5P3YD	Zebronics Wired Keyboard and Mouse Combo with 104 Keys and a USB Mouse with 1200 DPI - JUDWAA 750	54	699.00	244	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08FB2LNSZ	JBL Tune 215BT, 16 Hrs Playtime with Quick Charge, in Ear Bluetooth Wireless Earphones with Mic, 12.5mm Premium Earbuds with Pure Bass, BT 5.0, Dual Pairing, Type C & Voice Assistant Support (Black)	25	2999.00	254	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6574,6 +6580,7 @@ B0B217Z5VK	Noise Buds VS402 Truly Wireless in Ear Earbuds, 35-Hours of Playtime,
 B07B88KQZ8	JBL Go 2, Wireless Portable Bluetooth Speaker with Mic, JBL Signature Sound, Vibrant Color Options with IPX7 Waterproof & AUX (Blue)	71	2999.00	74	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07Z3K96FR	Robustrion Tempered Glass Screen Protector for iPad 10.2 inch 9th Gen Generation 2021 8th Gen 2020 7th Gen 2019	35	1499.00	114	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0756CLQWL	Redgear Pro Wireless Gamepad with 2.4GHz Wireless Technology, Integrated Dual Intensity Motor, Illuminated Keys for PC(Compatible with Windows 7/8/8.1/10 only)	84	3999.00	142	2021-01-01 00:00:00	2021-01-01 00:00:00
+B071VMP1Z4	LRIPL Compatible Sony Bravia LCD/led Remote Works with Almost All Sony led/LCD tvs	5	399.00	275	2021-01-01 00:00:00	2021-01-01 00:00:00
 B004IO5BMQ	Logitech M235 Wireless Mouse, 1000 DPI Optical Tracking, 12 Month Life Battery, Compatible with Windows, Mac, Chromebook/PC/Laptop	45	995.00	118	2021-01-01 00:00:00	2021-01-01 00:00:00
 B01HGCLUH6	TP-link N300 WiFi Wireless Router TL-WR845N | 300Mbps Wi-Fi Speed | Three 5dBi high gain Antennas | IPv6 Compatible | AP/RE/WISP Mode | Parental Control | Guest Network	69	1699.00	167	2021-01-01 00:00:00	2021-01-01 00:00:00
 B01N4EV2TL	Logitech MK240 Nano Wireless USB Keyboard and Mouse Set, 12 Function Keys 2.4GHz Wireless, 1000DPI, Spill-Resistant Design, PC/Mac, Black/Chartreuse Yellow	54	1995.00	56	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6587,13 +6594,14 @@ B07YY1BY5B	Noise ColorFit Pro 2 Full Touch Control Smart Watch with 35g Weight &
 B08VRMK55F	Zebronics Zeb Buds C2 in Ear Type C Wired Earphones with Mic, Braided 1.2 Metre Cable, Metallic Design, 10mm Drivers, in Line Mic & Volume Controller (Blue)	25	699.00	227	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08CHZ3ZQ7	Redgear A-15 Wired Gaming Mouse with Upto 6400 DPI, RGB & Driver Customization for PC(Black)	63	799.00	250	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08SCCG9D4	JBL Commercial CSLM20B Auxiliary Omnidirectional Lavalier Microphone with Battery for Content Creation, Voiceover/Dubbing, Recording (Black,Small)	87	2000.00	101	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0972BQ2RS	Fire-Boltt India's No 1 Smartwatch Brand Ring Bluetooth Calling with SpO2 & 1.7” Metal Body with Blood Oxygen Monitoring, Continuous Heart Rate, Full Touch & Multiple Watch Faces	20	9999.00	263	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0972BQ2RS	Fire-Boltt Indias No 1 Smartwatch Brand Ring Bluetooth Calling with SpO2 & 1.7” Metal Body with Blood Oxygen Monitoring, Continuous Heart Rate, Full Touch & Multiple Watch Faces	20	9999.00	263	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00ZRBWPA0	Eveready Red 1012 AAA Batteries - Pack of 10	51	180.00	195	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B2DD66GS	SanDisk Extreme microSD UHS I Card 128GB for 4K Video on Smartphones,Action Cams 190MB/s Read,90MB/s Write	23	2900.00	126	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09M869Z5V	Portronics MPORT 31C 4-in-1 USB Hub (Type C to 4 USB-A Ports) with Fast Data Transfer	86	999.00	198	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07W6VWZ8C	Infinity (JBL Fuze Pint, Wireless Ultra Portable Mini Speaker with Mic, Deep Bass, Dual Equalizer, Bluetooth 5.0 with Voice Assistant Support for Mobiles (Black)	88	1999.00	79	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07Z1X6VFC	AirCase Protective Laptop Bag Sleeve fits Upto 13.3" Laptop/ MacBook, Wrinkle Free, Padded, Waterproof Light Neoprene case Cover Pouch, for Men & Women, Black- 6 Months Warranty	89	999.00	112	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07YL54NVJ	Brand Conquer 6 in 1 with OTG, SD Card Reader, USB Type C, USB 3.0 and Micro USB, for Memory Card | Portable Card Reader | Compatible with TF, SD, Micro SD, SDHC, SDXC, MMC, RS-MMC, Micro SDXC	90	999.00	240	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0BHYJ8CVF	Portronics Key2 Combo Multimedia USB Wireless Keyboard and Mouse Set with 2.4 GHz Wireless Technology, Soft & Silent Button, Compact Size (Grey)	54	1499.00	275	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0759QMF85	TP-Link AC750 Dual Band Wireless Cable Router, 4 10/100 LAN + 10/100 WAN Ports, Support Guest Network and Parental Control, 750Mbps Speed Wi-Fi, 3 Antennas (Archer C20) Blue, 2.4 GHz	69	2399.00	240	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00LM4X0KU	Parker Quink Ink Bottle, Blue	91	100.00	246	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08PFSZ7FH	STRIFF Laptop Stand Adjustable Laptop Computer Stand Multi-Angle Stand Phone Stand Portable Foldable Laptop Riser Notebook Holder Stand Compatible for 9 to 15.6” Laptops Black(Black)	48	1499.00	147	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6614,7 +6622,6 @@ B09ZHCJDP1	Amazon Basics Wireless Mouse | 2.4 GHz Connection, 1600 DPI | Type - 
 B08C4Z69LN	Crucial RAM 8GB DDR4 3200MHz CL22 (or 2933MHz or 2666MHz) Laptop Memory CT8G4SFRA32A	95	3500.00	282	2021-01-01 00:00:00	2021-01-01 00:00:00
 B016XVRKZM	APC Back-UPS BX600C-IN 600VA / 360W, 230V, UPS System, an Ideal Power Backup & Protection for Home Office, Desktop PC & Home Electronics	96	4100.00	276	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00LHZW3XY	Luxor 5 Subject Single Ruled Notebook - A5 Size, 70 GSM, 300 Pages	92	180.00	190	2021-01-01 00:00:00	2021-01-01 00:00:00
-B098JYT4SY	Zebronics Zeb-Jaguar Wireless Mouse, 2.4GHz with USB Nano Receiver, High Precision Optical Tracking, 4 Buttons, Plug & Play, Ambidextrous, for PC/Mac/Laptop (Black+Grey)	45	1190.00	196	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08CFCK6CW	Boult Audio Truebuds with 30H Playtime, IPX7 Waterproof, Lightning Boult™ Type C Fast Charging (10 Min=100Mins), BoomX™ Tech Rich Bass, Pro+ Calling HD Mic, Touch Controls in Ear Earbuds TWS (Grey)	25	7999.00	252	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09P564ZTJ	Wembley LCD Writing Pad/Tab | Writing, Drawing, Reusable, Portable Pad with Colorful Letters | 9 Inch Graphic Tablet (Assorted)	46	1599.00	166	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07MSLTW8Z	Gizga Essentials Multi-Purpose Portable & Foldable Wooden Desk for Bed Tray, Laptop Table, Study Table (Black)	47	1999.00	294	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6640,7 +6647,7 @@ B017PDR9N0	GIZGA Essentials Portable Tabletop Tablet Stand Mobile Holder, Deskto
 B07NC12T2R	boAt Stone 650 10W Bluetooth Speaker with Upto 7 Hours Playback, IPX5 and Integrated Controls (Blue)	71	4990.00	82	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07WKBD37W	ESnipe Mart Worldwide Travel Adapter with Build in Dual USB Charger Ports with 125V 6A, 250V Protected Electrical Plug for Laptops, Cameras (White)	103	999.00	238	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08JMC1988	boAt Stone 180 5W Bluetooth Speaker with Upto 10 Hours Playback, 1.75" Driver, IPX7 & TWS Feature(Black)	88	2490.00	191	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09GFN8WZL	Portronics Ruffpad 8.5M Multicolor LCD Writing Pad with Screen 21.5cm (8.5-inch) for Drawing, Playing, Handwriting Gifts for Kids & Adults, India's first notepad to save and share your child's first creatives via Ruffpad app on your Smartphone(Black)	46	999.00	235	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09GFN8WZL	Portronics Ruffpad 8.5M Multicolor LCD Writing Pad with Screen 21.5cm (8.5-inch) for Drawing, Playing, Handwriting Gifts for Kids & Adults, Indias first notepad to save and share your childs first creatives via Ruffpad app on your Smartphone(Black)	46	999.00	235	2021-01-01 00:00:00	2021-01-01 00:00:00
 B095X38CJS	BRUSTRO Copytinta Coloured Craft Paper A4 Size 80 GSM Mixed Bright Colour 40 Sheets Pack (10 cols X 4 Sheets) Double Side Color for Office Printing, Art and Craft.	104	99.00	227	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07ZKD8T1Q	Cuzor 12V Mini ups for WiFi Router | Power Backup up to 4 Hours | Replaceable Battery | Ups for Wi-Fi Router and Modem | Ups for Router up to 2A | ups for uninterrupted wi-fi	69	2999.00	246	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07G3YNLJB	Crucial BX500 240GB 3D NAND SATA 6.35 cm (2.5-inch) SSD (CT240BX500SSD1)	105	3100.00	221	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6669,7 +6676,8 @@ B00E3DVQFS	Duracell Rechargeable AA 2500mAh Batteries, 4 Pcs	51	1109.00	54	2021-
 B00BN5SNF0	ENVIE® (AA10004PLNi-CD) AA Rechargeable Batteries, Low Self Discharge, AA 1000mAh Ni-CD (Pack of 4)	74	250.00	79	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09SGGRKV8	ZEBRONICS Zeb-Buds 30 3.5Mm Stereo Wired in Ear Earphones with Mic for Calling, Volume Control, Multifunction Button, 14Mm Drivers, Stylish Eartip,1.2 Meter Durable Cable and Lightweight Design(Red)	25	499.00	64	2021-01-01 00:00:00	2021-01-01 00:00:00
 B084BR3QX8	LAPSTER Accessories Power Cable Cord 2 Pin Laptop Adapter and Tape Recorder 1.5M	108	999.00	286	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09VC2D2WG	Portronics Ruffpad 12E Re-Writable LCD Writing Pad with 30.4cm (12 inch) Writing Area, Single Tap Erase, Smart Lock, Long Battery Life, India's first notepad to save and share your child's first creatives via Ruffpad app on your Smartphone(Black)	46	1499.00	280	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09VC2D2WG	Portronics Ruffpad 12E Re-Writable LCD Writing Pad with 30.4cm (12 inch) Writing Area, Single Tap Erase, Smart Lock, Long Battery Life, Indias first notepad to save and share your childs first creatives via Ruffpad app on your Smartphone(Black)	46	1499.00	280	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0BG62HMDJ	Cablet 2.5 Inch SATA USB 3.0 HDD/SSD Portable External Enclosure for 7mm and 9.5mm, Tool-Free Design, Supports UASP Max 6TB	55	775.00	54	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09163Q5CD	Verilux® USB C Hub Multiport Adapter- 6 in 1 Portable Aluminum Type C Hub with 4K HDMI Output, USB 2.0/3.0 Ports, SD/Micro SD Card Reader Compatible for MacBook Pro 2016-2020, MacBook Air 2018-2020, Type-C Devices	86	1929.00	273	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08K9PX15C	Zebronics Zeb Wonderbar 10 USB Powered 2.0 Computer Speaker with RGB Lights	109	1499.00	52	2021-01-01 00:00:00	2021-01-01 00:00:00
 B083RD1J99	HP Wired Mouse 100 with 1600 DPI Optical Sensor, USB Plug-and -Play,ambidextrous Design, Built-in Scrolling and 3 Handy Buttons. 3-Years Warranty (6VY96AA)	45	399.00	160	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6709,7 +6717,6 @@ B0873L7J6X	Infinity (JBL Glide 510, 72 Hrs Playtime with Quick Charge, Wireless 
 B07YNHCW6N	Robustrion Smart Trifold Hard Back Flip Stand Case Cover for Apple iPad 10.2 Cover iPad 9th Generation Cover 2021 8th Gen 2020 7th Gen 2019 Generation Case - Black	97	2499.00	200	2021-01-01 00:00:00	2021-01-01 00:00:00
 B01MQ2A86A	Logitech M331 Silent Plus Wireless Mouse, 2.4GHz with USB Nano Receiver, 1000 DPI Optical Tracking, 3 Buttons, 24 Month Life Battery, PC/Mac/Laptop - Black	45	1645.00	227	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00KIE28X0	Camel Artist Acrylic Color Box - 9ml Tubes, 12 Shades	64	310.00	293	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0BHYJ8CVF	Portronics Key2 Combo Multimedia USB Wireless Keyboard and Mouse Set with 2.4 GHz Wireless Technology, Soft & Silent Button, Compact Size (Grey)	54	1499.00	275	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BCVJ3PVP	SupCares Laptop Stand 7 Height Adjustable, Aluminium, Ventilated, Foldable, Portable Laptop Holder for Desk & Table Mount Upto 15.6 inch Laptop with Carry Pouch (Silver)	47	1299.00	193	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B2931FCV	ZEBRONICS Zeb-Sound Bomb N1 True Wireless in Ear Earbuds with Mic ENC, Gaming Mode (up to 50ms), up to 18H Playback, BT V5.2, Fidget Case, Voice Assistant, Splash Proof, Type C (Midnight Black)	25	4199.00	117	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09TMZ1MF8	Western Digital WD Green SATA 240GB Internal SSD Solid State Drive - SATA 6Gb/s 2.5 inches - WDS240G3G0A	105	4000.00	294	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6748,7 +6755,6 @@ B07XJWTYM2	realme Buds Wireless in Ear Bluetooth Earphones with mic, 11.2mm Bass
 B09939XJX8	TVARA LCD Writing Tablet, 8.5" Inch Colorful Toddler Doodle Board Drawing Tablet, Erasable Reusable Electronic Drawing Pads, Educational and Learning Tool for 3-6 Years Old Boy and Girls Mix Colors	46	1500.00	219	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09MDCZJXS	Wings Phantom Pro Earphones Gaming Earbuds with LED Battery Indicator, 50ms Low Latency, Bluetooth 5.3, 40 Hours Playtime, MEMs Mic, IPX4 Resist, 12mm Driver, 500mah case, Headphones, (Black TWS)	123	5499.00	81	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08CTQP51L	Robustrion [Anti-Scratch] & [Smudge Proof] [S Pen Compatible] Premium Tempered Glass Screen Protector for Samsung Tab S6 Lite 10.4 inch SM-P610/615 [Bubble Free]	35	1499.00	151	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0BG62HMDJ	Cablet 2.5 Inch SATA USB 3.0 HDD/SSD Portable External Enclosure for 7mm and 9.5mm, Tool-Free Design, Supports UASP Max 6TB	55	775.00	54	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08GTYFC37	SanDisk 1TB Extreme Portable SSD 1050MB/s R, 1000MB/s W,Upto 2 Meter Drop Protection with IP55 Water/dust Resistance, HW Encryption, PC,MAC & TypeC Smartphone Compatible, 5Y Warranty, External SSD	124	32000.00	200	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08SBH499M	ZEBRONICS Zeb-Warrior II 10 watts 2.0 Multimedia Speaker with RGB Lights, USB Powered, AUX Input, Volume Control Pod for PC, Laptops, Desktop	109	1300.00	195	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08FYB5HHK	TP-Link UE300C USB Type-C to RJ45 Gigabit Ethernet Network Adapter/RJ45 LAN Wired Adapter for Ultrabook, Chromebook, Laptop, Desktop, Plug & Play, USB 3.0, Foldable and Portable Design	125	1999.00	196	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6757,7 +6763,7 @@ B09GBBJV72	HP 330 Wireless Black Keyboard and Mouse Set with Numeric Keypad, 2.4
 B07P434WJY	RC PRINT GI 790 Ink Refill for Canon G1000, G1010, G1100, G2000, G2002, G2010, G2012, G2100, G3000, G3010, G3012, G3100, G4000, G4010	126	1999.00	180	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07T9FV9YP	Redgear Cloak Wired RGB Wired Over Ear Gaming Headphones with Mic for PC	123	1799.00	124	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08WKFSN84	Wayona Type C To Type C 65W/3.25A Nylon Braided Fast Charging Cable Compatible For Laptop, Macbook, Samsung Galaxy M33 M53 M51 S20 Ultra, A71, A53, A51, Ipad Pro 2018 (1M, Grey)	1	1099.00	281	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09TBCVJS3	Amazfit GTS2 Mini (New Version) Smart Watch with Always-on AMOLED Display, Alexa Built-in, SpO2, 14 Days' Battery Life, 68 Sports Modes, GPS, HR, Sleep & Stress Monitoring (Meteor Black)	20	7999.00	259	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09TBCVJS3	Amazfit GTS2 Mini (New Version) Smart Watch with Always-on AMOLED Display, Alexa Built-in, SpO2, 14 Days Battery Life, 68 Sports Modes, GPS, HR, Sleep & Stress Monitoring (Meteor Black)	20	7999.00	259	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08TR61BVK	Tabelito® Polyester Foam, Nylon Hybrid laptopss Bag Sleeve Case Cover Pouch for laptopss Apple/Dell/Lenovo/ Asus/ Hp/Samsung/Mi/MacBook/Ultrabook/Thinkpad/Ideapad/Surfacepro (15.6 inches /39.6cm, Blue) laptopsss	89	1499.00	233	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B2CPVXHX	Robustrion Anti-Scratch & Smudge Proof Tempered Glass Screen Protector for Xiaomi Mi Pad 5 11 inch	35	1499.00	251	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08XNL93PL	Portronics Ruffpad 15 Re-Writable LCD Screen 38.1cm (15-inch) Writing Pad for Drawing, Playing, Handwriting Gifts for Kids & Adults (Grey)	127	2999.00	234	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6826,13 +6832,6 @@ B07VQGVL68	Glun Multipurpose Portable Electronic Digital Weighing Scale Weight M
 B01LWYDEQ7	Pigeon Polypropylene Mini Handy and Compact Chopper with 3 Blades for Effortlessly Chopping Vegetables and Fruits for Your Kitchen (12420, Green, 400 ml)	144	495.00	256	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07VNFP3C2	Prestige 1.5 Litre Kettle 1500-watts, Red	139	1245.00	233	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00LUGTJGO	Bajaj RHX-2 800-Watt Room Heater (White)	140	1549.00	151	2021-01-01 00:00:00	2021-01-01 00:00:00
-B01MQZ7J8K	Prestige Electric Kettle PKOSS - 1500watts, Steel (1.5Ltr), Black	139	1445.00	210	2021-01-01 00:00:00	2021-01-01 00:00:00
-B01GFTEV5Y	Pigeon by Stovekraft Cruise 1800 watt Induction Cooktop (Black)	145	3193.00	54	2021-01-01 00:00:00	2021-01-01 00:00:00
-B00NW4UWN6	Prestige PKGSS 1.7L 1500W Electric Kettle (Stainless Steel)	139	1345.00	218	2021-01-01 00:00:00	2021-01-01 00:00:00
-B01NCVJMKX	SHOPTOSHOP Electric Lint Remover, Best Lint Shaver for Clothes,Lint Remover for Woolen Clothes ,Lint Remover for Sweaters	142	999.00	175	2021-01-01 00:00:00	2021-01-01 00:00:00
-B00O24PUO6	Orpat OEH-1260 2000-Watt Fan Heater (Grey)	141	1650.00	259	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07GXPDLYQ	PRO365 Indo Mocktails/Coffee Foamer/Cappuccino/Lemonade/Milk Frother (6 Months Warranty)	146	499.00	122	2021-01-01 00:00:00	2021-01-01 00:00:00
-B01C8P29N0	Bajaj DX-6 1000W Dry Iron with Advance Soleplate and Anti-bacterial German Coating Technology, White	147	1400.00	153	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08KDBLMQP	Croma 500W Mixer Grinder with 3 Stainless Steel Leak-proof Jars, 3 speed & Pulse function, 2 years warranty (CRAK4184, White & Purple)	148	2500.00	187	2021-01-01 00:00:00	2021-01-01 00:00:00
 B078JDNZJ8	Havells Instanio 3-Litre Instant Geyser (White/Blue)	149	6190.00	168	2021-01-01 00:00:00	2021-01-01 00:00:00
 B01M5F614J	Morphy Richards OFR Room Heater, 09 Fin 2000 Watts Oil Filled Room Heater , ISI Approved (OFR 9 Grey)	150	13999.00	234	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6875,6 +6874,7 @@ B09NL7LBWT	Bulfyss USB Rechargeable Lint Remover Fabric Shaver Pet Hair Remover,
 B008YW8M0G	Bajaj DX-7 1000W Dry Iron with Advance Soleplate and Anti-bacterial German Coating Technology, White	147	875.00	145	2021-01-01 00:00:00	2021-01-01 00:00:00
 B097R3XH9R	Bajaj New Shakti Neo 25L Vertical Storage Water Heater (Geyser 25 Litres) 4 Star BEE Rated Heater For Water Heating with Titanium Armour, Swirl Flow Technology, Glasslined Tank(White), 1 Yr Warranty	152	15270.00	183	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08TM71L54	PHILIPS Handheld Garment Steamer STH3000/20 - Compact & Foldable, Convenient Vertical Steaming, 1000 Watt Quick Heat Up, up to 20g/min, Kills 99.9%* Bacteria (Reno Blue), Small	156	4195.00	79	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0B9RN5X8B	V-Guard Zio Instant Water Geyser | 3 Litre | 3000 W Heating | White-Blue | | 2 Year Warranty	149	4700.00	68	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BPBXNQQT	Room Heater Warmer Wall-Outlet 400 Watts Electric Handy Room Heater (Room Heaters Home for Bedroom, Reading Books, Work, bathrooms, Rooms, Offices, Home Offices,2022	140	1989.00	66	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00W56GLOQ	Wonderchef Nutri-blend Mixer, Grinder & Blender | Powerful 400W 22000 RPM motor | Stainless steel Blades | 2 unbreakable jars | 2 Years warranty | Online recipe book by Chef Sanjeev Kapoor | Black	157	5000.00	157	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0883KDSXC	USHA Armor AR1100WB 1100 W Dry Iron with Black Weilburger Soleplate (Purple)	147	990.00	212	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -6958,7 +6958,6 @@ B07Z51CGGH	Eureka Forbes Wet & Dry Ultimo 1400 Watts Multipurpose Vacuum Cleaner
 B0BDG6QDYD	Activa Heat-Max 2000 Watts Room Heater (White color ) with ABS body	141	1990.00	224	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00YQLG7GK	PHILIPS HL1655/00 Hand Blender, White Jar 250W	146	1695.00	94	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00SMJPA9C	Bajaj DX-2 600W Dry Iron with Advance Soleplate and Anti-Bacterial German Coating Technology, Grey	147	940.00	108	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0B9RN5X8B	V-Guard Zio Instant Water Geyser | 3 Litre | 3000 W Heating | White-Blue | | 2 Year Warranty	149	4700.00	68	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08QW937WV	Homeistic Applience™ Instant Electric Water Heater Faucet Tap For Kitchen And Bathroom Sink Digital Water Heating Tap with Shower Head ABS Body- Shock Proof (Pack Of 1. White)	149	2999.00	114	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B4PPD89B	Kitchenwell 18Pc Plastic Food Snack Bag Pouch Clip Sealer for Keeping Food Fresh for Home, Kitchen, Camping Snack Seal Sealing Bag Clips (Multi-Color) | (Pack of 18)|	163	79.00	203	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08GM5S4CQ	Havells Instanio 10 Litre Storage Water Heater with Flexi Pipe and Free installation (White Blue)	152	14290.00	244	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -7109,7 +7108,7 @@ B08MXJYB2V	USHA RapidMix 500-Watt Copper Motor Mixer Grinder with 3 Jars and 5 Y
 B081B1JL35	CSI INTERNATIONAL® Instant Water Geyser, Water Heater, Portable Water Heater, Geyser Made of First Class ABS Plastic 3KW (Red)	149	2499.00	191	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09VL9KFDB	Havells Gatik Neo 400mm Pedestal Fan (Aqua Blue)	190	4200.00	60	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B1MDZV9C	INALSA Upright Vacuum Cleaner, 2-in-1,Handheld & Stick for Home & Office Use,800W- with 16KPA Strong Suction & HEPA Filtration|0.8L Dust Tank|Includes Multiple Accessories,(Grey/Black)	158	4495.00	194	2021-01-01 00:00:00	2021-01-01 00:00:00
-B08TT63N58	ROYAL STEP - AMAZON'S BRAND - Portable Electric USB Juice Maker Juicer Bottle Blender Grinder Mixer,4 Blades Rechargeable Bottle with (Multi color) (MULTI)	186	2199.00	294	2021-01-01 00:00:00	2021-01-01 00:00:00
+B08TT63N58	ROYAL STEP - AMAZONS BRAND - Portable Electric USB Juice Maker Juicer Bottle Blender Grinder Mixer,4 Blades Rechargeable Bottle with (Multi color) (MULTI)	186	2199.00	294	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08YK7BBD2	Nirdambhay Mini Bag Sealer, 2 in 1 Heat Sealer and Cutter Handheld Sealing Machine Portable Bag Resealer Sealer for Plastic Bags Food Storage Snack Fresh Bag Sealer (Including 2 AA Battery)	163	999.00	134	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07YQ5SN4H	Cello Non-Stick Aluminium Sandwich Gas Toaster(Black)	160	595.00	286	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B7FJNSZR	Proven® Copper + Mineral RO+UV+UF 10 to 12 Liter RO + UV + TDS ADJUSTER Water Purifier with Copper Charge Technology black & copper Best For Home and Office (Made In India)	179	19990.00	240	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -7160,6 +7159,7 @@ B07G147SZD	NEXOMS Instant Heating Water Tap Wall Mounted with 3 Pin Indian Plug 
 B09LH32678	JIALTO Mini Waffle Maker 4 Inch- 350 Watts: Stainless Steel Non-Stick Electric Iron Machine for Individual Belgian Waffles, Pan Cakes, Paninis or Other Snacks - Aqua blue	199	1999.00	214	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09R1YFL6S	Candes BlowHot All in One Silent Blower Fan Room Heater (ABS Body, White, Brown) 2000 Watts	141	2999.00	274	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07Q4NJQC5	Ionix Jewellery Scale | Weight Scale | Digital Weight Machine | weight machine for gold | Electronic weighing machines for Jewellery 0.01G to 200G Small Weight Machine for Shop - Silver	143	599.00	206	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07B5XJ572	iBELL MPK120L Premium Stainless Steel Multi Purpose Kettle/Cooker with Inner Pot 1.2 Litre (Silver)	139	3190.00	126	2021-01-01 00:00:00	2021-01-01 00:00:00
 B097RN7BBK	Kitchen Kit Electric Kettle, 1.8L Stainless Steel Tea Kettle, Fast Boil Water Warmer with Auto Shut Off and Boil Dry Protection Tech	151	1999.00	280	2021-01-01 00:00:00	2021-01-01 00:00:00
 B097MKZHNV	Racold Pronto Pro 3Litres 3KW Vertical Instant Water Heater (Geyser)	149	4849.00	168	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07LG96SDB	ESN 999 Supreme Quality 1500W Immersion Water Heater Rod (Black)	153	510.00	142	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -7172,7 +7172,7 @@ B0BNDRK886	IONIX Activated Carbon Faucet Water Filters Universal Interface Home 
 B09ZVJXN5L	KNYUC MART Mini Electric Handy Room Heater Compact Plug-in, The Wall Outlet 400 Watts, Handy Air Warmer Blower Adjustable Timer Digital Display	141	999.00	58	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08JKPVDKL	INKULTURE Stainless_Steel Measuring Cups & Spoon Combo for Dry or Liquid/Kitchen Gadgets for Cooking & Baking Cakes/Measuring Cup Set Combo with Handles (Set of 4 Cups & 4 Spoons)	201	699.00	114	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09JFR8H3Q	Macmillan Aquafresh 5 Micron PS-05 10" in PP Spun Filter Candle Set for All Type RO Water Purifier 10 inch (4)	173	1499.00	246	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07LDN9Q2P	Havells D'zire 1000 watt Dry Iron With American Heritage Sole Plate, Aerodynamic Design, Easy Grip Temperature Knob & 2 years Warranty. (Mint)	147	1295.00	116	2021-01-01 00:00:00	2021-01-01 00:00:00
+B07LDN9Q2P	Havells Dzire 1000 watt Dry Iron With American Heritage Sole Plate, Aerodynamic Design, Easy Grip Temperature Knob & 2 years Warranty. (Mint)	147	1295.00	116	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08T8KWNQ9	TE™ Instant Electric Heating Hot and Cold Water Geyser Tap Water with Digital Display (White)	149	4999.00	283	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07Y1RCCW5	ZIGMA WinoteK WinoteK Sun Instant Water Geyser, Water Heater, Portable Water Heater, Geysers Made of First Class ABS Plastic, automatic Reset Model, AE10-3 W (Yellow)	149	2550.00	108	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0762HXMTF	KENT 11054 Alkaline Water Filter Pitcher 3.5 L | Chemical-Free Water with Balanced pH Levels 8.0 to 9.5 | Solves Acidity Issue | Equipped with Carbon and Sediment Filter - Grey	179	1950.00	105	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -7198,7 +7198,6 @@ B088WCFPQF	Cafe JEI French Press Coffee and Tea Maker 600ml with 4 Level Filtrat
 B07JZSG42Y	Borosil Prime Grill Sandwich Maker (Grey)	160	2590.00	299	2021-01-01 00:00:00	2021-01-01 00:00:00
 B08YRMBK9R	Candes 10 Litre Perfecto 5 Star Rated Automatic Instant Storage Electric Water Heater with Special Metal Body Anti Rust Coating With Installation Kit, 2KW Geyser (Ivory)	152	6299.00	167	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00935MGHS	Prestige PSMFB 800 Watt Sandwich Toaster with Fixed Plates, Black	160	1795.00	162	2021-01-01 00:00:00	2021-01-01 00:00:00
-B07B5XJ572	iBELL MPK120L Premium Stainless Steel Multi Purpose Kettle/Cooker with Inner Pot 1.2 Litre (Silver)	139	3190.00	126	2021-01-01 00:00:00	2021-01-01 00:00:00
 B086199CWG	Maharaja Whiteline Odacio Plus 550-Watt Juicer Mixer Grinder with 3 Jars (Black/Silver)	157	4799.00	50	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BBWJFK5C	Shakti Technology S3 High Pressure Car Washer Machine 1800 Watts and Pressure 120 Bar for Cleaning Car, Bike & Home	166	8999.00	238	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07GLS2563	Cello Quick Boil Popular Electric Kettle 1 Litre 1200 Watts | Stainless Steel body | Boiler for Water, Silver	151	1899.00	128	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -7219,7 +7218,7 @@ B01F7B2JCI	Dynore Stainless Steel Set of 4 Measuring Cup and 4 Measuring Spoon	2
 B09NNZ1GF7	Lint Remover For Clothes With 1 Year Warranty Fabric Shaver Lint Shaver for Woolen Clothes Blanket Jackets Stainless Steel Blades,Bedding, Clothes and Furniture Best Remover for Fabrics Portable Lint Shavers (White Orange)	142	999.00	187	2021-01-01 00:00:00	2021-01-01 00:00:00
 B01CS4A5V4	Monitor AC Stand/Heavy Duty Air Conditioner Outdoor Unit Mounting Bracket	204	1690.00	199	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BL11S5QK	iBELL Induction Cooktop, 2000W with Auto Shut Off and Overheat Protection, BIS Certified, Black	145	3890.00	58	2021-01-01 00:00:00	2021-01-01 00:00:00
-B09BL2KHQW	KENT POWP-Sediment Filter 10'' Thread WCAP	173	260.00	136	2021-01-01 00:00:00	2021-01-01 00:00:00
+B09BL2KHQW	KENT POWP-Sediment Filter 10 Thread WCAP	173	260.00	136	2021-01-01 00:00:00	2021-01-01 00:00:00
 B081RLM75M	LACOPINE Mini Pocket Size Lint Roller (White)	142	599.00	74	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07SYYVP69	iBELL SEK170BM Premium Electric Kettle, 1.7 Litre, Stainless Steel with Coating,1500W Auto Cut-Off, Silver with Black	139	1950.00	207	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BDZWMGZ1	Activa Easy Mix Nutri Mixer Grinder 500 Watt | Long Lasting Shock Proof ABS Body | Heavy Duty Motor With Nano - Grinding Technology	148	2990.00	185	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -7245,7 +7244,7 @@ B09NFSHCWN	Hilton Quartz Heater 400/800-Watt ISI 2 Rods Multi Mode Heater Long L
 B076VQS87V	Syska SDI-07 1000 W Stellar with Golden American Heritage Soleplate Dry Iron (Blue)	147	799.00	182	2021-01-01 00:00:00	2021-01-01 00:00:00
 B09LMMFW3S	IKEA Milk Frother for Your Milk, Coffee,(Cold and hot Drinks), Black	191	399.00	203	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0BBLHTRM9	IONIX Tap filter Multilayer | Activated Carbon Faucet Water Filters Universal Interface Home Kitchen Faucet Tap Water Clean Purifier Filter Cartridge Five Layer Water Filter-Pack of 1	173	699.00	129	2021-01-01 00:00:00	2021-01-01 00:00:00
-B0BJYSCWFQ	Kitchengenix's Mini Waffle Maker 4 Inch- 350 Watts: Stainless Steel Non-Stick Electric Iron Machine for Individual Belgian Waffles, Pan Cakes, Paninis or Other Snacks (Red)	199	1999.00	279	2021-01-01 00:00:00	2021-01-01 00:00:00
+B0BJYSCWFQ	Kitchengenixs Mini Waffle Maker 4 Inch- 350 Watts: Stainless Steel Non-Stick Electric Iron Machine for Individual Belgian Waffles, Pan Cakes, Paninis or Other Snacks (Red)	199	1999.00	279	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0187F2IOK	Bajaj HM-01 Powerful 250W Hand Mixer, Black	183	2199.00	273	2021-01-01 00:00:00	2021-01-01 00:00:00
 B0B8CB7MHW	KNOWZA Electric Handheld Milk Wand Mixer Frother for Latte Coffee Hot Milk, Milk Frother for Coffee, Egg Beater, Hand Blender, Coffee Beater (BLACK COFFEE BEATER)	146	999.00	280	2021-01-01 00:00:00	2021-01-01 00:00:00
 B07K19NYZ8	Usha Hc 812 T Thermo Fan Room Heater	141	3290.00	165	2021-01-01 00:00:00	2021-01-01 00:00:00
@@ -7260,6 +7259,7 @@ B01M6453MB	Prestige Delight PRWO Electric Rice Cooker (1 L, White)	175	3045.00	2
 B009P2LIL4	Bajaj Majesty RX10 2000 Watts Heat Convector Room Heater (White, ISI Approved)	169	3080.00	157	2021-01-01 00:00:00	2021-01-01 00:00:00
 B00J5DYCCA	Havells Ventil Air DSP 230mm Exhaust Fan (Pista Green)	171	1890.00	200	2021-01-01 00:00:00	2021-01-01 00:00:00
 B01486F4G6	Borosil Jumbo 1000-Watt Grill Sandwich Maker (Black)	160	3690.00	132	2021-01-01 00:00:00	2021-01-01 00:00:00
+B083GQGT3Z	Caprigo Heavy Duty TV Wall Mount Stand for 12 to 27 inches LED/LCD/Monitor Screens, Full Motion Rotatable Universal TV & Monitor Wall Mount Bracket with Swivel & Tilt Adjustments (Single Arm - M416)	7	799.00	209	2021-01-01 00:00:00	2021-01-01 00:00:00
 \.
 
 
@@ -7496,7 +7496,7 @@ SELECT pg_catalog.setval('public.customer_customer_id_seq', 1, false);
 -- Name: order_detail_order_detail_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.order_detail_order_detail_id_seq', 1, false);
+SELECT pg_catalog.setval('public.order_detail_order_detail_id_seq', 3628, true);
 
 
 --
