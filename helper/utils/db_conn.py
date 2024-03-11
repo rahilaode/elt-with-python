@@ -1,6 +1,11 @@
 import psycopg2
 import warnings
 warnings.filterwarnings('ignore')
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
 
 def db_connection():
     """
@@ -20,18 +25,18 @@ def db_connection():
         according to your PostgreSQL server configuration.
     """
     try:
-        conn_src = psycopg2.connect(database="mini_order",
-                                    host="localhost",
-                                    user="postgres",
-                                    password="mypassword",
-                                    port="5433")
+        conn_src = psycopg2.connect(database=os.getenv("SRC_POSTGRES_DB"),
+                                    host=os.getenv("SRC_POSTGRES_HOST"),
+                                    user=os.getenv("SRC_POSTGRES_USER"),
+                                    password=os.getenv("SRC_POSTGRES_PASSWORD"),
+                                    port=os.getenv("SRC_POSTGRES_PORT"))
         cur_src = conn_src.cursor()
 
-        conn_dwh = psycopg2.connect(database="dwh",
-                                    host="localhost",
-                                    user="postgres",
-                                    password="mypassword",
-                                    port="5434")
+        conn_dwh = psycopg2.connect(database=os.getenv("DWH_POSTGRES_DB"),
+                                    host=os.getenv("DWH_POSTGRES_HOST"),
+                                    user=os.getenv("DWH_POSTGRES_USER"),
+                                    password=os.getenv("DWH_POSTGRES_PASSWORD"),
+                                    port=os.getenv("DWH_POSTGRES_PORT"))
         cur_dwh = conn_dwh.cursor()
         
         return conn_src, cur_src, conn_dwh, cur_dwh
