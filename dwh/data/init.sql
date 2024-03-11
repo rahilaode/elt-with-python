@@ -98,13 +98,13 @@ CREATE TABLE prod.dim_customer(
 
 CREATE TABLE prod.dim_product(
     product_id uuid primary key default uuid_generate_v4(),
-    product_nk int,
-    name varchar(100),
+    product_nk varchar(100),
+    name text,
     price numeric(10,2),
     stock int,
-    category_name varchar(100),
+    category_name varchar(255),
     category_desc text,
-    subcategory_name varchar(100),
+    subcategory_name varchar(255),
     subcategory_desc text,
     created_at timestamp,
     updated_at timestamp
