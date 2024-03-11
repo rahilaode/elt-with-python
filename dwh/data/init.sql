@@ -6,6 +6,7 @@ CREATE SCHEMA IF NOT EXISTS prod AUTHORIZATION postgres;
 
 -- Staging
 CREATE TABLE stg.category (
+    uuid uuid default uuid_generate_v4(),
     category_id serial4 NOT NULL,
     "name" varchar(255) NOT NULL,
     description text NULL,
@@ -15,6 +16,7 @@ CREATE TABLE stg.category (
 );
 
 CREATE TABLE stg.customer (
+    uuid uuid default uuid_generate_v4(),
     customer_id serial4 NOT NULL,
     first_name varchar(255) NOT NULL,
     last_name varchar(255) NOT NULL,
@@ -27,6 +29,7 @@ CREATE TABLE stg.customer (
 );
 
 CREATE TABLE stg.orders (
+    uuid uuid default uuid_generate_v4(),
     order_id varchar(50) NOT NULL,
     customer_id int4 NULL,
     order_date timestamp NOT NULL,
@@ -37,6 +40,7 @@ CREATE TABLE stg.orders (
 );
 
 CREATE TABLE stg.order_detail (
+    uuid uuid default uuid_generate_v4(),
     order_detail_id serial4 NOT NULL,
     order_id varchar(50) NULL,
     product_id varchar(100) NULL,
@@ -48,6 +52,7 @@ CREATE TABLE stg.order_detail (
 );
 
 CREATE TABLE stg.subcategory (
+    uuid uuid default uuid_generate_v4(),
 	subcategory_id serial4 NOT NULL,
 	"name" varchar(255) NOT NULL,
 	category_id int4 NULL,
@@ -58,6 +63,7 @@ CREATE TABLE stg.subcategory (
 );
 
 CREATE TABLE stg.product (
+    uuid uuid default uuid_generate_v4(),
     product_id varchar(100) NOT NULL,
     "name" text NOT NULL,
     subcategory_id int4 NULL,
