@@ -4,11 +4,17 @@ services:
   postgres:
     image: postgres:latest
     container_name: sources
+    restart: always
     environment:
-      POSTGRES_DB: mini_order
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: mypassword
+      - POSTGRES_DB=mini_order
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=mypassword
     ports:
-      - "5433:5432"
+      - 5433:5432
     volumes:
       - ./data:/docker-entrypoint-initdb.d
+      - source-volume:/var/lib/postgresql/data
+
+
+volumes:
+  source-volume:
