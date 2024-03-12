@@ -1,13 +1,28 @@
 # ELT With Python & SQL
 
-Learning purposes only
+- Purposes of this project is to create **ELT pipleines**.
+- Apart from that, the data store or destination data of this project applies the **Kimbals approach**.
 
+# Architecture
+![alt text](https://github.com/rahilaode/elt-with-python/assets/architecture)
+
+# Data Source Schemas
+![alt text](https://github.com/rahilaode/elt-with-python/assets/datasource)
+
+# DWH - Staging Schemas
+![alt text](https://github.com/rahilaode/elt-with-python/assets/dwh-stg)
+
+# DWH - Final / Prod Schemas
+![alt text](https://github.com/rahilaode/elt-with-python/assets/dwh-prod)
+
+# How to use this projetct?
 ## Prerequisites
 - First, make sure you already installed :
     - Python
         - Python is used for running the ELT Pipeline
     - Docker
-        - Docker is used for running the Data Source & Data Warehouse
+        - Docker is used for running postgres instances
+        - Data sources & Data warehouse we will run it on Docker.
     - Dbeaver
         - Dbeaver is used to make it easier to access the database using a GUI
 
@@ -41,21 +56,33 @@ Learning purposes only
   ```
   docker compose up -d
   ```
-  
+
 - Define Schema & Relation for Data warehouse (Staging & Final Area)
   ```
-  python3 ./helper/dwh_init.py
+  python3 ./helper/utils/dwh_init.py
   ```
 
 ## Running ELT Pipeline
-### Extract & Load
+### Extract
 - Command :
   ```
-  python3 ./helper/utils/extract_load.py
+  python3 ./helper/utils/extract.py
+  ```
+
+### Load
+- Command :
+  ```
+  python3 ./helper/utils/load.py
   ```
 
 ### Transform
 - Command :
   ```
   python3 ./helper/utils/transform.py
+  ```
+
+### Run Extract, Load, Transform sequentially
+- Command :
+  ```
+  python3 ./helper/utils/elt_main.py
   ```
