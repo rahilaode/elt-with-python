@@ -4,16 +4,16 @@
 - Apart from that, the data store or destination data of this project applies the **Kimbals approach**.
 
 # Architecture
-![alt text](https://github.com/rahilaode/elt-with-python/assets/architecture)
+![alt text](https://github.com/rahilaode/elt-with-python/assets/architecture.png)
 
 # Data Source Schemas
-![alt text](https://github.com/rahilaode/elt-with-python/assets/datasource)
+![alt text](https://github.com/rahilaode/elt-with-python/assets/datasource.png)
 
 # DWH - Staging Schemas
-![alt text](https://github.com/rahilaode/elt-with-python/assets/dwh-stg)
+![alt text](https://github.com/rahilaode/elt-with-python/assets/dwh-stg.png)
 
 # DWH - Final / Prod Schemas
-![alt text](https://github.com/rahilaode/elt-with-python/assets/dwh-prod)
+![alt text](https://github.com/rahilaode/elt-with-python/assets/dwh-prod.png)
 
 # How to use this projetct?
 ## Prerequisites
