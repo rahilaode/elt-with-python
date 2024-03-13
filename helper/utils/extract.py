@@ -36,34 +36,6 @@ def get_table_data(table_name, engine):
         # Return an empty DataFrame in case of an error
         return pd.DataFrame()
 
-
-def compare(df1, df2):
-    """
-    Compares two pandas DataFrames and returns rows that are unique to each DataFrame.
-
-    Args:
-        df1 (pandas.DataFrame): The first DataFrame to be compared.
-        df2 (pandas.DataFrame): The second DataFrame to be compared.
-
-    Returns:
-        pandas.DataFrame: A DataFrame containing rows that are unique to either df1 or df2.
-
-    Notes:
-        Both df1 and df2 should have the same column structure.
-        The function concatenates df1 and df2, then drops duplicate rows, 
-        keeping only rows that are unique to each DataFrame.
-    """
-    try:
-        df = pd.concat([df1, df2])
-        df = df.drop_duplicates(keep=False)
-        
-        return df
-
-    except Exception as e:
-        print(f"Error: {e}")
-        
-        return pd.DataFrame()
-
 def extract():
     """
     Extract data from source and staging databases, compare the data,
@@ -88,29 +60,13 @@ def extract():
         src_product = get_table_data('product', conn_src)
         src_subcategory = get_table_data('subcategory', conn_src)
         
-        # Extract from DWH (staging)
-        stg_category = get_table_data('stg.category', conn_dwh).drop('uuid', axis=1)
-        stg_customer = get_table_data('stg.customer', conn_dwh).drop('uuid', axis=1)
-        stg_order_detail = get_table_data('stg.order_detail', conn_dwh).drop('uuid', axis=1)
-        stg_orders = get_table_data('stg.orders', conn_dwh).drop('uuid', axis=1)
-        stg_product = get_table_data('stg.product', conn_dwh).drop('uuid', axis=1)
-        stg_subcategory = get_table_data('stg.subcategory', conn_dwh).drop('uuid', axis=1)
-        
-        # Get the difference data
-        category = compare(src_category, stg_category)
-        customer = compare(src_customer, stg_customer)
-        order_detail = compare(src_order_detail, stg_order_detail)
-        orders = compare(src_orders, stg_orders)
-        product = compare(src_product, stg_product)
-        subcategory = compare(src_subcategory, stg_subcategory)
-        
         # Save to csv file
-        category.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/category.csv', index = False) 
-        subcategory.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/subcategory.csv', index = False) 
-        customer.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/customer.csv', index = False) 
-        orders.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/orders.csv', index = False) 
-        product.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/product.csv', index = False) 
-        order_detail.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/order_detail.csv', index = False) 
+        src_category.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/category.csv', index = False) 
+        src_subcategory.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/subcategory.csv', index = False) 
+        src_customer.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/customer.csv', index = False) 
+        src_orders.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/orders.csv', index = False) 
+        src_product.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/product.csv', index = False) 
+        src_order_detail.to_csv('/home/laode/pacmann/project/elt-with-python/helper/utils/temp_data/order_detail.csv', index = False) 
         
         # Close the cursor and connection
         conn_src.close()
