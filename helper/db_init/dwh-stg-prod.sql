@@ -30,7 +30,7 @@ CREATE TABLE stg.orders (
     id uuid default uuid_generate_v4(),
     order_id varchar(50) primary key NOT NULL,
     customer_id int4 NULL,
-    order_date timestamp NOT NULL,
+    order_date date NOT NULL,
     status varchar(50) NOT NULL,
     created_at timestamp DEFAULT CURRENT_TIMESTAMP NULL,
     updated_at timestamp DEFAULT CURRENT_TIMESTAMP NULL
