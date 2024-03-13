@@ -27,6 +27,7 @@ def load():
         # Load to 'category' Table
         for index, row in category.iterrows():
             # Extract values from the DataFrame row
+            category_id = row['category_id']
             name = row['name']
             description = row['description']
             created_at = row['created_at']
@@ -35,9 +36,21 @@ def load():
             # Construct the SQL INSERT query
             insert_query = f"""
             INSERT INTO stg.category 
-            (name, description, created_at, updated_at) 
+                (category_id, name, description, created_at, updated_at) 
             VALUES 
-            ('{name}', '{description}', '{created_at}', '{updated_at}');
+                ('{category_id}', '{name}', '{description}', '{created_at}', '{updated_at}')
+            ON CONFLICT(category_id) 
+            DO UPDATE SET
+                name = EXCLUDED.name,
+                description = EXCLUDED.description,
+                updated_at = CASE WHEN 
+                                    stg.category.name <> EXCLUDED.name 
+                                    OR stg.category.description <> EXCLUDED.description 
+                            THEN 
+                                    CURRENT_TIMESTAMP
+                            ELSE
+                                    stg.category.updated_at
+                            END;
             """
 
             # Execute the INSERT query
@@ -49,6 +62,7 @@ def load():
         # Load to 'subcategory' table
         for index, row in subcategory.iterrows():
             # Extract values from the DataFrame row
+            subcategory_id = row['subcategory_id']
             name = row['name']
             category_id = row['category_id']
             description = row['description']
@@ -59,9 +73,23 @@ def load():
             # Construct the SQL INSERT query
             insert_query = f"""
             INSERT INTO stg.subcategory 
-            (name, category_id, description, created_at, updated_at) 
+                (subcategory_id, name, category_id, description, created_at, updated_at) 
             VALUES 
-            ('{name}', '{category_id}', '{description}', '{created_at}', '{updated_at}');
+                ('{subcategory_id}', '{name}', '{category_id}', '{description}', '{created_at}', '{updated_at}')
+            ON CONFLICT(subcategory_id) 
+            DO UPDATE SET
+                name = EXCLUDED.name,
+                category_id = EXCLUDED.category_id,
+                description = EXCLUDED.description,
+                updated_at = CASE WHEN 
+                                    stg.subcategory.name <> EXCLUDED.name 
+                                    OR stg.subcategory.category_id <> EXCLUDED.category_id 
+                                    OR stg.subcategory.description <> EXCLUDED.description 
+                            THEN 
+                                    CURRENT_TIMESTAMP
+                            ELSE
+                                    stg.subcategory.updated_at
+                            END;
             """
 
             # Execute the INSERT query
@@ -73,6 +101,7 @@ def load():
         # Load to 'customer' table
         for index, row in customer.iterrows():
             # Extract values from the DataFrame row
+            customer_id = row['customer_id']
             first_name = row['first_name']
             last_name = row['last_name']
             email = row['email']
@@ -84,9 +113,27 @@ def load():
             # Construct the SQL INSERT query
             insert_query = f"""
             INSERT INTO stg.customer 
-            (first_name, last_name, email, phone, address, created_at, updated_at) 
+                (customer_id, first_name, last_name, email, phone, address, created_at, updated_at) 
             VALUES 
-            ('{first_name}', '{last_name}', '{email}', '{phone}', '{address}', '{created_at}', '{updated_at}');
+                ('{customer_id}', '{first_name}', '{last_name}', '{email}', '{phone}', '{address}', '{created_at}', '{updated_at}')
+            ON CONFLICT(customer_id) 
+            DO UPDATE SET
+                first_name = EXCLUDED.first_name,
+                last_name = EXCLUDED.last_name,
+                email = EXCLUDED.email,
+                phone = EXCLUDED.phone,
+                address = EXCLUDED.address,
+                updated_at = CASE WHEN 
+                                    stg.customer.first_name <> EXCLUDED.first_name 
+                                    OR stg.customer.last_name <> EXCLUDED.last_name 
+                                    OR stg.customer.email <> EXCLUDED.email
+                                    OR stg.customer.phone <> EXCLUDED.phone 
+                                    OR stg.customer.address <> EXCLUDED.address 
+                            THEN 
+                                    CURRENT_TIMESTAMP
+                            ELSE
+                                    stg.customer.updated_at
+                            END;
             """
 
             # Execute the INSERT query
@@ -108,9 +155,23 @@ def load():
             # Construct the SQL INSERT query
             insert_query = f"""
             INSERT INTO stg.orders 
-            (order_id, customer_id, order_date, status, created_at, updated_at) 
+                (order_id, customer_id, order_date, status, created_at, updated_at) 
             VALUES 
-            ('{order_id}', '{customer_id}', '{order_date}', '{status}', '{created_at}', '{updated_at}');
+                ('{order_id}', '{customer_id}', '{order_date}', '{status}', '{created_at}', '{updated_at}')
+            ON CONFLICT(order_id) 
+            DO UPDATE SET
+                customer_id = EXCLUDED.customer_id,
+                order_date = EXCLUDED.order_date,
+                status = EXCLUDED.status,
+                updated_at = CASE WHEN 
+                                    stg.orders.customer_id <> EXCLUDED.customer_id 
+                                    OR stg.orders.order_date <> EXCLUDED.order_date 
+                                    OR stg.orders.status <> EXCLUDED.status
+                            THEN 
+                                    CURRENT_TIMESTAMP
+                            ELSE
+                                    stg.orders.updated_at
+                            END;
             """
 
             # Execute the INSERT query
@@ -133,9 +194,26 @@ def load():
             # Construct the SQL INSERT query
             insert_query = f"""
             INSERT INTO stg.product 
-            (product_id, name, subcategory_id, price, stock, created_at, updated_at) 
+                (product_id, name, subcategory_id, price, stock, created_at, updated_at) 
             VALUES 
-            ('{product_id}', '{name}', {subcategory_id}, {price}, {stock}, '{created_at}', '{updated_at}');
+                ('{product_id}', '{name}', {subcategory_id}, {price}, {stock}, '{created_at}', '{updated_at}')
+            ON CONFLICT(product_id) 
+            DO UPDATE SET
+                name = EXCLUDED.name,
+                subcategory_id = EXCLUDED.subcategory_id,
+                price = EXCLUDED.price,
+                stock = EXCLUDED.stock,
+                updated_at = CASE WHEN 
+                                    stg.product.name <> EXCLUDED.name 
+                                    OR stg.product.subcategory_id <> EXCLUDED.subcategory_id 
+                                    OR stg.product.price <> EXCLUDED.price 
+                                    OR stg.product.stock <> EXCLUDED.stock 
+                                    
+                            THEN 
+                                    CURRENT_TIMESTAMP
+                            ELSE
+                                    stg.product.updated_at
+                            END;
             """
 
             # Execute the INSERT query
@@ -147,6 +225,7 @@ def load():
         # Load to 'order_detail' table
         for index, row in order_detail.iterrows():
             # Extract values from the DataFrame row
+            order_detail_id = row['order_detail_id']
             order_id = row['order_id']
             product_id = row['product_id']
             quantity = row['quantity']
@@ -157,9 +236,25 @@ def load():
             # Construct the SQL INSERT query
             insert_query = f"""
             INSERT INTO stg.order_detail 
-            (order_id, product_id, quantity, price, created_at, updated_at) 
+                (order_detail_id, order_id, product_id, quantity, price, created_at, updated_at) 
             VALUES 
-            ('{order_id}', '{product_id}', '{quantity}', '{price}', '{created_at}', '{updated_at}');
+                ('{order_detail_id}', '{order_id}', '{product_id}', '{quantity}', '{price}', '{created_at}', '{updated_at}')
+            ON CONFLICT(order_detail_id) 
+            DO UPDATE SET
+                order_id = EXCLUDED.order_id,
+                product_id = EXCLUDED.product_id,
+                quantity = EXCLUDED.quantity,
+                price = EXCLUDED.price,
+                updated_at = CASE WHEN 
+                                    stg.order_detail.order_id <> EXCLUDED.order_id 
+                                    OR stg.order_detail.product_id <> EXCLUDED.product_id 
+                                    OR stg.order_detail.quantity <> EXCLUDED.quantity 
+                                    OR stg.order_detail.price <> EXCLUDED.price 
+                            THEN 
+                                    CURRENT_TIMESTAMP
+                            ELSE
+                                    stg.order_detail.updated_at
+                            END;
             """
 
             # Execute the INSERT query
