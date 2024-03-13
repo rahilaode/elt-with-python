@@ -35,7 +35,7 @@ def transform():
         )
 
         SELECT
-            c.uuid AS customer_id,
+            c.id AS customer_id,
             c.customer_id AS customer_nk,
             c.first_name,
             c.last_name,
@@ -47,17 +47,26 @@ def transform():
         FROM
             stg.customer c
             
-        WHERE NOT EXISTS (
-            SELECT 1
-            FROM prod.dim_customer t
-            WHERE t.first_name = c.first_name
-            AND t.last_name = c.last_name 
-            AND t.email = c.email
-            AND t.phone = c.phone 
-            AND t.address = c.address
-            AND t.created_at = c.created_at
-            AND t.updated_at = c.updated_at
-        );
+        ON CONFLICT(customer_id) 
+        DO UPDATE SET
+            customer_nk = EXCLUDED.customer_nk,
+            first_name = EXCLUDED.first_name,
+            last_name = EXCLUDED.last_name,
+            email = EXCLUDED.email,
+            phone = EXCLUDED.phone,
+            address = EXCLUDED.address,
+            updated_at = CASE WHEN 
+                                prod.dim_customer.customer_nk <> EXCLUDED.customer_nk
+                                OR prod.dim_customer.first_name <> EXCLUDED.first_name 
+                                OR prod.dim_customer.last_name <> EXCLUDED.last_name 
+                                OR prod.dim_customer.email <> EXCLUDED.email 
+                                OR prod.dim_customer.phone <> EXCLUDED.phone 
+                                OR prod.dim_customer.address <> EXCLUDED.address 
+                        THEN 
+                                CURRENT_TIMESTAMP
+                        ELSE
+                                prod.dim_customer.updated_at
+                        END;
         """
 
         # Execute the INSERT query
@@ -69,6 +78,7 @@ def transform():
         
         
         # dim_product
+        # Construct the SQL INSERT query
         # Construct the SQL INSERT query
         insert_query = f"""
         INSERT INTO prod.dim_product (
@@ -86,7 +96,7 @@ def transform():
         )
 
         SELECT
-            p.uuid AS product_id,
+            p.id AS product_id,
             p.product_id AS product_nk,
             p."name",
             p.price,
@@ -105,19 +115,30 @@ def transform():
         INNER JOIN
             stg.category c ON s.category_id = c.category_id
             
-        WHERE NOT EXISTS (
-            SELECT 1
-            FROM prod.dim_product t
-            WHERE t."name" = p."name"
-            AND t.price = p.price
-            AND t.stock = p.stock
-            AND t.category_name = c."name"
-            AND t.category_desc = c.description
-            AND t.subcategory_name = s."name"
-            AND t.subcategory_desc = s.description
-            AND t.created_at = p.created_at
-            AND t.updated_at = p.updated_at
-        );
+        ON CONFLICT(product_id) 
+        DO UPDATE SET
+            product_nk = EXCLUDED.product_nk,
+            name = EXCLUDED.name,
+            price = EXCLUDED.price,
+            stock = EXCLUDED.stock,
+            category_name = EXCLUDED.category_name,
+            category_desc = EXCLUDED.category_desc,
+            subcategory_name = EXCLUDED.subcategory_name,
+            subcategory_desc = EXCLUDED.subcategory_desc,
+            updated_at = CASE WHEN 
+                                prod.dim_product.product_nk <> EXCLUDED.product_nk
+                                OR prod.dim_product.name <> EXCLUDED.name 
+                                OR prod.dim_product.price <> EXCLUDED.price 
+                                OR prod.dim_product.stock <> EXCLUDED.stock 
+                                OR prod.dim_product.category_name <> EXCLUDED.category_name 
+                                OR prod.dim_product.category_desc <> EXCLUDED.category_desc 
+                                OR prod.dim_product.subcategory_name <> EXCLUDED.subcategory_name 
+                                OR prod.dim_product.subcategory_desc <> EXCLUDED.subcategory_desc 
+                        THEN 
+                                CURRENT_TIMESTAMP
+                        ELSE
+                                prod.dim_product.updated_at
+                        END;
         """
 
         # Execute the INSERT query
@@ -130,12 +151,13 @@ def transform():
         
         # fact_order
         # Construct the SQL INSERT query
+        # Construct the SQL INSERT query
         insert_query = f"""
-        INSERT INTO prod.fact_order (
+        INSERT INTO prod.fct_order (
             order_id,
             product_id,
             customer_id,
-            order_date,
+            date_id,
             quantity,
             status,
             created_at,
@@ -143,38 +165,44 @@ def transform():
         )
 
         SELECT
-            od.uuid as order_id,
+            o.id AS order_id,
             dp.product_id,
             dc.customer_id,
-            dd.date_id as order_date,
+            dd.date_id,
             od.quantity,
             o.status,
-            o.created_at,
-            o.updated_at
+            od.created_at,
+            od.updated_at
         FROM
             stg.order_detail od
             
-        INNER join 
+        INNER JOIN 
             stg.orders o ON od.order_id = o.order_id
-        INNER join 
+        INNER JOIN 
             prod.dim_customer dc ON o.customer_id = dc.customer_nk
-        INNER join 
+        INNER JOIN 
             prod.dim_product dp on od.product_id = dp.product_nk 
-        INNER join 
+        INNER JOIN 
             prod.dim_date dd on o.order_date = dd.date_actual
             
-        WHERE NOT EXISTS (
-            SELECT 1
-            FROM prod.fact_order t
-            WHERE t."order_id" = od.uuid
-            AND t.product_id = dp.product_id
-            AND t.customer_id = dc.customer_id
-            AND t.order_date = dd.date_id
-            AND t.quantity = od.quantity
-            AND t.status = o.status
-            AND t.created_at = o.created_at
-            AND t.updated_at = o.updated_at
-        );
+        ON CONFLICT (order_id, product_id, customer_id, date_id, quantity, status, created_at) 
+        DO UPDATE SET 
+            order_id = EXCLUDED.order_id,
+            product_id = EXCLUDED.product_id,
+            customer_id = EXCLUDED.customer_id,
+            date_id = EXCLUDED.date_id,
+            quantity = EXCLUDED.quantity,
+            status = EXCLUDED.status,
+            created_at = EXCLUDED.created_at,
+            updated_at = CASE 
+                WHEN prod.fct_order.customer_id <> EXCLUDED.customer_id 
+                    OR prod.fct_order.date_id <> EXCLUDED.date_id 
+                    OR prod.fct_order.quantity <> EXCLUDED.quantity 
+                    OR prod.fct_order.status <> EXCLUDED.status 
+                    OR prod.fct_order.created_at <> EXCLUDED.created_at 
+                THEN CURRENT_TIMESTAMP 
+                ELSE prod.fct_order.updated_at 
+            END;
         """
 
         # Execute the INSERT query
