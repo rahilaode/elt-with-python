@@ -1,5 +1,8 @@
 from db_conn import db_connection
 import pandas as pd
+from datetime import datetime
+
+current_local_time = datetime.now()
 
 def load():
     """
@@ -47,7 +50,7 @@ def load():
                                     stg.category.name <> EXCLUDED.name 
                                     OR stg.category.description <> EXCLUDED.description 
                             THEN 
-                                    CURRENT_TIMESTAMP
+                                    '{current_local_time}'
                             ELSE
                                     stg.category.updated_at
                             END;
@@ -86,7 +89,7 @@ def load():
                                     OR stg.subcategory.category_id <> EXCLUDED.category_id 
                                     OR stg.subcategory.description <> EXCLUDED.description 
                             THEN 
-                                    CURRENT_TIMESTAMP
+                                    '{current_local_time}'
                             ELSE
                                     stg.subcategory.updated_at
                             END;
@@ -130,7 +133,7 @@ def load():
                                     OR stg.customer.phone <> EXCLUDED.phone 
                                     OR stg.customer.address <> EXCLUDED.address 
                             THEN 
-                                    CURRENT_TIMESTAMP
+                                    '{current_local_time}'
                             ELSE
                                     stg.customer.updated_at
                             END;
@@ -168,7 +171,7 @@ def load():
                                     OR stg.orders.order_date <> EXCLUDED.order_date 
                                     OR stg.orders.status <> EXCLUDED.status
                             THEN 
-                                    CURRENT_TIMESTAMP
+                                    '{current_local_time}'
                             ELSE
                                     stg.orders.updated_at
                             END;
@@ -210,7 +213,7 @@ def load():
                                     OR stg.product.stock <> EXCLUDED.stock 
                                     
                             THEN 
-                                    CURRENT_TIMESTAMP
+                                    '{current_local_time}'
                             ELSE
                                     stg.product.updated_at
                             END;
@@ -251,7 +254,7 @@ def load():
                                     OR stg.order_detail.quantity <> EXCLUDED.quantity 
                                     OR stg.order_detail.price <> EXCLUDED.price 
                             THEN 
-                                    CURRENT_TIMESTAMP
+                                    '{current_local_time}'
                             ELSE
                                     stg.order_detail.updated_at
                             END;

@@ -1,6 +1,9 @@
 from db_conn import db_connection
 import warnings
 warnings.filterwarnings('ignore')
+from datetime import datetime
+
+current_local_time = datetime.now()
 
 def transform():
     """
@@ -63,7 +66,7 @@ def transform():
                                 OR prod.dim_customer.phone <> EXCLUDED.phone 
                                 OR prod.dim_customer.address <> EXCLUDED.address 
                         THEN 
-                                CURRENT_TIMESTAMP
+                                '{current_local_time}'
                         ELSE
                                 prod.dim_customer.updated_at
                         END;
@@ -135,7 +138,7 @@ def transform():
                                 OR prod.dim_product.subcategory_name <> EXCLUDED.subcategory_name 
                                 OR prod.dim_product.subcategory_desc <> EXCLUDED.subcategory_desc 
                         THEN 
-                                CURRENT_TIMESTAMP
+                                '{current_local_time}'
                         ELSE
                                 prod.dim_product.updated_at
                         END;
@@ -200,7 +203,7 @@ def transform():
                     OR prod.fct_order.quantity <> EXCLUDED.quantity 
                     OR prod.fct_order.status <> EXCLUDED.status 
                     OR prod.fct_order.created_at <> EXCLUDED.created_at 
-                THEN CURRENT_TIMESTAMP 
+                THEN '{current_local_time}' 
                 ELSE prod.fct_order.updated_at 
             END;
         """
