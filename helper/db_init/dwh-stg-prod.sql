@@ -149,6 +149,8 @@ CREATE TABLE prod.fct_order(
 	updated_at timestamp
 );
 
+CREATE UNIQUE INDEX idx_unique_order_product ON prod.fct_order (order_id, product_id, customer_id, date_id, quantity, status, created_at);
+
 -- Populating for staging date dimension 
 INSERT INTO prod.dim_date
 SELECT TO_CHAR(datum, 'yyyymmdd')::INT AS date_id,
