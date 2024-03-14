@@ -6,15 +6,6 @@
 # Architecture
 ![alt text](https://github.com/rahilaode/elt-with-python/blob/main/assets/architecture.png)
 
-# Data Source Schemas
-![alt text](https://github.com/rahilaode/elt-with-python/blob/main/assets/datasource.png)
-
-# DWH - Staging Schemas
-![alt text](https://github.com/rahilaode/elt-with-python/blob/main/assets/dwh-stg.png)
-
-# DWH - Final / Prod Schemas
-![alt text](https://github.com/rahilaode/elt-with-python/blob/main/assets/dwh-prod.png)
-
 # How to use this projetct?
 ## Prerequisites
 - First, make sure you already installed :
