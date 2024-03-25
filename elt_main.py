@@ -1,7 +1,7 @@
-from helper.utils.extract import *
-from helper.utils.load import *
-from helper.utils.transform import *
-from helper.utils.db_conn import *
+from pipeline.extract import *
+from pipeline.load import *
+from pipeline.transform import *
+from pipeline.utils.db_conn import *
 
 # Execute the functions when the script is run
 if __name__ == '__main__':
