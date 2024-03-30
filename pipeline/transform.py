@@ -44,10 +44,6 @@ def transform():
         session.close()        
         
         #------------------------------------------------PART OF FACT TABLE-----------------------------------------------
-        # Read query to truncate fact tables in dwh
-        truncate_query = read_sql_file(
-            file_path = f'{DIR_TRANSFORM_QUERY}/truncate-fact-tables.sql'
-        )
         
         # Read query to insert into fact tables
         fct_order_query = read_sql_file(
@@ -57,10 +53,6 @@ def transform():
         # Create session
         Session = sessionmaker(bind = dwh_engine)
         session = Session()
-        
-        # Truncate fact tables in dwh
-        query = sqlalchemy.text(truncate_query)
-        session.execute(query)
         
         # Transform to final.fct_order
         query = sqlalchemy.text(fct_order_query)
